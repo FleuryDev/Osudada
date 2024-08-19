@@ -1,0 +1,85 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+
+--primary-orange : #EB8800;
+--secondary-orange : #FFC801;
+}
+
+header select{
+    @apply text-sm ;
+
+}
+
+header label{
+    @apply font-medium;
+
+}
+.filter1  div{
+    @apply mx-auto text-left block  w-1/6;
+}
+#filter1 select, #filter1 label{
+    @apply block ;
+}
+#filter1 select{
+    @apply w-full p-0 border-none ;
+}   
+header select option{
+    @apply font-thin;
+}
+
+
+#hFilter{
+    @apply w-full max-sm:hidden ;
+}
+
+#hFilter button{
+    @apply  border-none p-1  focus:border-none max-md:w-1/5;
+}
+
+#hFilter svg{
+    @apply  w-auto mx-auto h-4 fill-transparent;
+}
+#hFilter span{
+    @apply text-xs;
+}
+
+
+
+.e-card{
+    @apply  container relative max-lg:w-1/2 max-md:w-full mb-5;
+}
+@media  (min-width: 1024px) {
+    .e-card{
+    width: 23.5%;
+    
+}
+}
+.e-card-imgs img{
+    z-index: 0 !important;
+}
+.e-cardInfos{
+    border-start-end-radius: 37%;
+    z-index: 100 !important;
+}
+
+button, a{
+    @apply transition-colors duration-300;
+    
+}
+
+form.contact input{
+
+    @apply block py-1 px-0 w-full text-xs text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-[--primary-orange] focus:outline-none focus:ring-0 focus:border-[--primary-orange];
+    }
+form.contact label{
+    @apply peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-4 scale-75 top-0 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto peer-focus:text-[--primary-orange] peer-focus:dark:text-[--primary-orange] peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-3;
+}
+
+footer h5{
+    @apply text-lg font-semibold;
+}
+
+

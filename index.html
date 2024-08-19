@@ -1,0 +1,928 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Osudada - Home</title>
+    <link rel="stylesheet" href="css/build/tailwind.css">
+    <link rel="stylesheet" href="css/font/font.css">
+    <link rel="shortcut icon" href="media/Logo Osudada 2.svg" type="image/x-icon">
+</head>
+<body >
+    <header class="w-full max-h-32  fixed top-0 default-font   ">
+        <div class="w-full  shadow-md  p-3 max-lg:px-8 px-24 flex flex-col justify-around bg-white">
+            <div class="w-full flex   justify-between"> 
+                <div class="image max-lg:w-3/12 lg:w-2/12  relative left-0 justify-betewen justify-between">
+                   <img src="media/Logo Osudada 2.png" class="image max-lg:w-2/3 lg:w-1/2 p-0" alt="">
+                </div>
+                <div class=" max-lg:hidden lg:w-7/12 flex flex-wrap justify-center lg:justify-between  p-0 align-top   my-auto text-lg whitespace-normal ">
+                    <div class=""><a href="index.html">Rechercher un bien</a></div>
+                    <div class=" "><a href="agences.html">Trouver une agence immobilière</a></div>
+                    <div class="px-4 rounded-full primary-orange text-white py-1 -mt-1"><a href="#" class="text-white">Publier un bien</a></div>
+                    
+                </div>
+                <div class="  max-lg:w-3/12 lg:w-2/12 flex float-right p-2  justify-between ">
+                    <div class="flex ml-auto justify-between w-1/2">
+                        <div class="p-2 border rounded-full">
+                            <svg class="w-5 h-5"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc. --><path d="M352 256c0 22.2-1.2 43.6-3.3 64l-185.3 0c-2.2-20.4-3.3-41.8-3.3-64s1.2-43.6 3.3-64l185.3 0c2.2 20.4 3.3 41.8 3.3 64zm28.8-64l123.1 0c5.3 20.5 8.1 41.9 8.1 64s-2.8 43.5-8.1 64l-123.1 0c2.1-20.6 3.2-42 3.2-64s-1.1-43.4-3.2-64zm112.6-32l-116.7 0c-10-63.9-29.8-117.4-55.3-151.6c78.3 20.7 142 77.5 171.9 151.6zm-149.1 0l-176.6 0c6.1-36.4 15.5-68.6 27-94.7c10.5-23.6 22.2-40.7 33.5-51.5C239.4 3.2 248.7 0 256 0s16.6 3.2 27.8 13.8c11.3 10.8 23 27.9 33.5 51.5c11.6 26 20.9 58.2 27 94.7zm-209 0L18.6 160C48.6 85.9 112.2 29.1 190.6 8.4C165.1 42.6 145.3 96.1 135.3 160zM8.1 192l123.1 0c-2.1 20.6-3.2 42-3.2 64s1.1 43.4 3.2 64L8.1 320C2.8 299.5 0 278.1 0 256s2.8-43.5 8.1-64zM194.7 446.6c-11.6-26-20.9-58.2-27-94.6l176.6 0c-6.1 36.4-15.5 68.6-27 94.6c-10.5 23.6-22.2 40.7-33.5 51.5C272.6 508.8 263.3 512 256 512s-16.6-3.2-27.8-13.8c-11.3-10.8-23-27.9-33.5-51.5zM135.3 352c10 63.9 29.8 117.4 55.3 151.6C112.2 482.9 48.6 426.1 18.6 352l116.7 0zm358.1 0c-30 74.1-93.6 130.9-171.9 151.6c25.5-34.2 45.2-87.7 55.3-151.6l116.7 0z"/></svg>
+                        </div>
+                        <div class="p-2 border rounded-full">
+                          <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc. --><path d="M304 128a80 80 0 1 0 -160 0 80 80 0 1 0 160 0zM96 128a128 128 0 1 1 256 0A128 128 0 1 1 96 128zM49.3 464l349.5 0c-8.9-63.3-63.3-112-129-112l-91.4 0c-65.7 0-120.1 48.7-129 112zM0 482.3C0 383.8 79.8 304 178.3 304l91.4 0C368.2 304 448 383.8 448 482.3c0 16.4-13.3 29.7-29.7 29.7L29.7 512C13.3 512 0 498.7 0 482.3z"/></svg>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+          <div class="w-full flex justify-between ">
+            <div class="flex justify-between px-1 max-lg:hidden lg:w-7/12  rounded-full  mx-auto  border border-gray-300  ">
+                
+                <div id="filter1" class="flex filter1  w-9/12 container justify-between px-4 align-middle"  >
+                    
+                            <div class="  ">
+                             <label class="block" for="Projet">Projet</label>
+                                <select class="block w-full p-0 " name="Projet" placeholder="P" id="">
+                                    <option value="">Achat</option>
+                                    <option value=""></option>
+                             </select>
+                         </div>
+
+                         <div class="">
+                                <label for="Bien">Bien</label>
+                                <select class=" " name="Bien" placeholder="P" id="">
+                                    <option value="">Terrain</option>
+                                    <option value=""></option>
+                                </select>
+                            </div>
+
+                            <div class="">
+                                <label for="Ville">Ville</label>
+                                <select class="" name="Ville" placeholder="P" id="">
+                                    <option value="">Calavi</option>
+                                    <option value="">Cotonou</option>
+                                     <option value="">Porto-novo</option>
+                                </select>
+                            </div>
+
+                            <div class="">
+                                <label for="Quartier">Quartier</label>
+                             <select class="" name="Quartier" placeholder="P" id="">
+                                    <option value="">Zogbadje</option>
+                                    <option value=""></option>
+                                </select>
+                            </div>
+                
+                            <div class="">
+                                <label for="Budjet">Budjet</label>
+                                <select class="" name="Budjet" placeholder="P" id="">
+                                 <option value="">100.000</option>
+                                 <option value=""></option>
+                             </select>
+                         </div>
+
+
+                </div>
+            
+               <div class="w-3/12 my-auto">
+                    <button class="border bg-search-btn p-2 rounded-full :focus[none]  float-right">
+                      <svg class="w-5 h-5 fill-current text-white"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc. --><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"/></svg>
+                     </button>
+                </div>
+            </div>
+          </div>
+
+        </div>
+    </header>
+        <div class="container w-full mx-auto flex max-lg:mt-20 lg:mt-32 min-h-96 z-0">
+            <div class="w-full container  justify-between max-lg:mx-8 lg:px-24">
+                <div class="w-full flex justify-center">
+                     <!-- carousel-->
+                    
+
+                    <div id="default-carousel" class="relative w-full py-4 default-font" data-carousel="slide">
+                        <!-- Carousel wrapper -->
+                        <div class="relative  overflow-hidden rounded-lg h-44">
+                            <!-- Item 1 -->
+                            <div class=" duration-700 ease-in-out" data-carousel-item>
+                               
+                                <div class="block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 absolute p-6 primary-orange text-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">         
+                                          <div class="w-full flex justify-between">
+                                             <div class="mb-3 font-normal  text-xl w-9/12">
+                                                     <h5 class="mb-2   ">Dans le besoin d’une maison locative,</h5>
+                                                    <p class="w-9/12">Trouvez la meilleure agence immobilière située dans votre ville grâce à notre annuaire.</p>
+                                                </div>
+                                            <div class="w-2/12 my-auto ">
+                                                <img src="media/img/3dicons.svg" class="w-2/3 my-auto  fill-white" alt="" srcset="">
+                                            </div>
+                                    </div>
+                                    <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center bg-white text-black rounded-lg hover:bg-orange-300 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                                        Read more
+                                        <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                                        </svg>
+                                    </a>
+                                </div>
+
+                            </div>
+                            <!-- Item 2 -->
+                            <div class=" duration-700 ease-in-out" data-carousel-item>
+                               
+                                <div class="block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 absolute p-6 secondary-orange border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">          
+                                  
+                                   
+                                    <div class="w-full flex justify-between">
+                                             <div class="mb-3 font-normal text-xl w-9/12">
+                                        <h5 class="mb-2   ">Propriétaitaire de bien Immobilier,</h5>
+                                                    <p class="w-9/12">Trouvez la meilleure agence immobilière située dans votre ville grâce à notre annuaire.</p>
+
+                                                </div>
+                                            <div class="w-2/12">
+                                                 <img src="media/img/3dicons (1).svg" class="w-2/3 my-auto  fill-white" alt="" srcset="">
+                                            </div>
+                                    </div>
+                                   
+                                    <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center bg-white text-black rounded-lg hover:bg-yellow-200 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                                        Read more
+                                        <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                                        </svg>
+                                    </a>
+                                </div>
+
+                            </div>
+                        </div>
+                        <!-- Slider indicators -->
+                        <div class="absolute z-30  flex -translate-x-1/2 bottom-5 left-1/2 space-x-3 rtl:space-x-reverse -translate-y-5">
+                            <button type="button" class="w-3 h-3 rounded-full" aria-current="true" aria-label="Slide 1" data-carousel-slide-to="0"></button>
+                            <button type="button" class="w-3 h-3 rounded-full " aria-current="false" aria-label="Slide 2" data-carousel-slide-to="1"></button>
+                            </div>
+                        <!-- Slider controls -->
+                        <button type="button" class=" hidden absolute top-0  start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
+                            <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-slate-300 dark:bg-gray-800/30 group-hover:bg-orange-300 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                                <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4"/>
+                                </svg>
+                                <span class="sr-only">Previous</span>
+                            </span>
+                        </button>
+                        <button type="button" class="hidden absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
+                            <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-slate-300 dark:bg-gray-800/30 group-hover:bg-orange-300 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                                <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
+                                </svg>
+                                <span class="sr-only">Next</span>
+                            </span>
+                        </button>
+                    </div>
+
+                </div>
+                    <!-- home filter-->
+                <div id="hFilter" class="default-font">
+                    <div class="container w-full flex-wrap border shadow-zinc-200 shadow-sm rounded-lg inset-y-1/2 p-2 flex justify-between">
+                        <button type="button" >
+                                <svg  viewBox="0 0 17 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1 8.41193V19.6342C1 20.1864 1.44772 20.6342 2 20.6342H8H14.3852C14.9335 20.6342 15.3795 20.1926 15.3851 19.6444L15.5 8.41193M1 8.41193L7.28194 1.432C7.67002 1.0008 8.34239 0.989228 8.74508 1.40683L15.5 8.41193M1 8.41193H15.5" stroke="black" stroke-opacity="0.7" stroke-width="2"/>
+                                </svg>
+                                <span >1 piece</span>
+                        </button>
+
+                        <button type="button" >
+                                <svg  viewBox="0 0 24 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1 8.41193V19.6342C1 20.1864 1.44772 20.6342 2 20.6342H8M1 8.41193L7.3119 1.39871C7.68875 0.979991 8.33692 0.955034 8.74485 1.34354L11.5 3.96749M1 8.41193H8.25M11.5 3.96749H18.3046C18.5881 3.96749 18.8583 4.08781 19.0479 4.29852L22.75 8.41193M11.5 3.96749L8.25 8.41193M8.25 8.41193L8 20.6342M8.25 8.41193H22.75M8 20.6342H21.75C22.3023 20.6342 22.75 20.1864 22.75 19.6342V8.41193" stroke="black" stroke-opacity="0.7" stroke-width="2"/>
+                                </svg>
+                                <span >2 pieces</span>
+                        </button>
+
+                        <button type="button" >
+                                <svg  viewBox="0 0 35 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1 8.41193V19.6342C1 20.1864 1.44772 20.6342 2 20.6342H8.77778M1 8.41193L8.12297 1.28896C8.49246 0.919469 9.08413 0.896746 9.48087 1.23681L12.6667 3.96749M1 8.41193H9.05556M33.2222 8.41193V19.6342C33.2222 20.1864 32.7745 20.6342 32.2222 20.6342H25.1667H17.1111M33.2222 8.41193L29.0707 4.26038C28.8831 4.07285 28.6288 3.96749 28.3636 3.96749H20.7222M33.2222 8.41193H25.1667H17.1111M12.6667 3.96749H20.7222M12.6667 3.96749L9.05556 8.41193M20.7222 3.96749L17.1111 8.41193M17.1111 8.41193H9.05556M17.1111 8.41193V20.6342M9.05556 8.41193L8.77778 20.6342M8.77778 20.6342H17.1111" stroke="black" stroke-opacity="0.7" stroke-width="2"/>
+                                </svg>
+                                <span >3 pieces</span>
+                        </button>
+
+                        <button type="button" >
+                                <svg  viewBox="0 0 38 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1 8.41193V19.6342C1 20.1864 1.44772 20.6342 2 20.6342H8M1 8.41193L7.3119 1.39871C7.68875 0.979991 8.33692 0.955034 8.74485 1.34354L11.5 3.96749M1 8.41193H8.25M11.5 3.96749H18.75M11.5 3.96749L8.25 8.41193M26 3.96749H18.75M26 3.96749L22.75 8.41193M26 3.96749H33.0146C33.3211 3.96749 33.6107 4.10802 33.8003 4.3488L37 8.41193M18.75 3.96749L15.5 8.41193M15.5 8.41193H8.25M15.5 8.41193V20.6342M15.5 8.41193H22.75M8.25 8.41193L8 20.6342M8 20.6342H15.5M15.5 20.6342H22.75M22.75 8.41193V20.6342M22.75 8.41193H37M22.75 20.6342H30H36C36.5523 20.6342 37 20.1864 37 19.6342V8.41193" stroke="black" stroke-opacity="0.7" stroke-width="2"/>
+                                </svg>
+                                <span >4 pieces</span>
+                        </button>
+                         <button type="button" >
+                                <svg  viewBox="0 0 45 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1 8.41193V19.6342C1 20.1864 1.44772 20.6342 2 20.6342H8M1 8.41193L7.3119 1.39871C7.68875 0.979991 8.33692 0.955034 8.74485 1.34354L11.5 3.96749M1 8.41193H8.25M30 20.6342H22.75M30 20.6342H37H43C43.5523 20.6342 44 20.1864 44 19.6342V8.41193M30 20.6342L29.875 8.41193M11.5 3.96749H18.75M11.5 3.96749L8.25 8.41193M26 3.96749H18.75M26 3.96749L22.75 8.41193M26 3.96749H33.5M18.75 3.96749L15.5 8.41193M15.5 8.41193H8.25M15.5 8.41193V20.6342M15.5 8.41193H22.75M8.25 8.41193L8 20.6342M8 20.6342H15.5M15.5 20.6342H22.75M22.75 8.41193V20.6342M22.75 8.41193H29.875M33.5 3.96749H39.5546C39.8381 3.96749 40.1083 4.08781 40.2979 4.29852L44 8.41193M33.5 3.96749L29.875 8.41193M44 8.41193H29.875" stroke="black" stroke-opacity="0.7" stroke-width="2"/>
+                                </svg>
+                                <span >5 pieces</span>
+                        </button>
+                         <button type="button" >
+                                <svg  viewBox="0 0 34 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1 9.16666V20.5C1 21.0523 1.44772 21.5 2 21.5H16C16.5523 21.5 17 21.0523 17 20.5V9.16666C17 8.61437 16.5523 8.16666 16 8.16666H2C1.44772 8.16666 1 8.61437 1 9.16666Z" stroke="black" stroke-opacity="0.7" stroke-width="2"/>
+                                <path d="M9 2.5V13.8333C9 14.3856 9.44772 14.8333 10 14.8333H24C24.5523 14.8333 25 14.3856 25 13.8333V2.5C25 1.94772 24.5523 1.5 24 1.5H10C9.44772 1.5 9 1.94771 9 2.5Z" stroke="black" stroke-opacity="0.7" stroke-width="2"/>
+                                <path d="M17 9.16666V20.5C17 21.0523 17.4477 21.5 18 21.5H32C32.5523 21.5 33 21.0523 33 20.5V9.16666C33 8.61437 32.5523 8.16666 32 8.16666H18C17.4477 8.16666 17 8.61437 17 9.16666Z" stroke="black" stroke-opacity="0.7" stroke-width="2"/>
+                                </svg>
+                                <span >Carrelée</span>
+                        </button>
+                         <button type="button" >
+                                <svg width="18" height="21" viewBox="0 0 18 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M2 20.5004H16C16.5304 20.5004 17.0391 20.2897 17.4142 19.9146C17.7893 19.5395 18 19.0308 18 18.5004V9.5004C18.0008 9.36879 17.9755 9.23833 17.9258 9.11649C17.876 8.99465 17.8027 8.88384 17.71 8.7904L9.71 0.790396C9.52264 0.604145 9.26919 0.499603 9.005 0.499603C8.74081 0.499603 8.48736 0.604145 8.3 0.790396L0.3 8.7904C0.205512 8.88301 0.130342 8.99345 0.0788453 9.11533C0.0273487 9.23721 0.00054925 9.36809 0 9.5004V18.5004C0 19.0308 0.210714 19.5395 0.585786 19.9146C0.960859 20.2897 1.46957 20.5004 2 20.5004ZM7 18.5004V13.5004H11V18.5004H7ZM2 9.9104L9 2.9104L16 9.9104V18.5004H13V13.5004C13 12.97 12.7893 12.4613 12.4142 12.0862C12.0391 11.7111 11.5304 11.5004 11 11.5004H7C6.46957 11.5004 5.96086 11.7111 5.58579 12.0862C5.21071 12.4613 5 12.97 5 13.5004V18.5004H2V9.9104Z" fill="black" fill-opacity="0.7"/>
+                                </svg>
+                                <span >Simple</span>
+                        </button>
+                         <button type="button" >
+                                <svg  viewBox="0 0 25 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M13.0241 0.345015L12.4335 0L11.8429 0.345015L0.575556 6.95004C0.308876 7.10666 0.115339 7.36281 0.0375206 7.66214C-0.0402977 7.96146 0.00397708 8.27944 0.160605 8.54612C0.317233 8.8128 0.573384 9.00634 0.872708 9.08415C1.17203 9.16197 1.49001 9.1177 1.75669 8.96107L3.10878 8.16847V20H21.7582V8.16847L23.1103 8.96107C23.2424 9.03862 23.3884 9.08941 23.5401 9.11053C23.6918 9.13165 23.8461 9.12269 23.9943 9.08415C24.1425 9.04562 24.2817 8.97828 24.4039 8.88596C24.5261 8.79364 24.6289 8.67817 24.7064 8.54612C24.784 8.41407 24.8348 8.26804 24.8559 8.11637C24.877 7.9647 24.868 7.81035 24.8295 7.66214C24.791 7.51393 24.7236 7.37476 24.6313 7.25257C24.539 7.13039 24.4235 7.02759 24.2915 6.95004L13.0241 0.345015ZM19.4271 6.80084L12.4335 2.70262L5.43996 6.80084V17.6688H9.32526V10.6753H15.5418V17.6688H19.4271V6.80084ZM13.2106 13.0064V17.6688H11.6564V13.0064H13.2106Z" fill="black" fill-opacity="0.7"/>
+                                </svg>
+
+                                <span >Guest House</span>
+                        </button>
+                         <button type="button" >
+                                <svg  viewBox="0 0 28 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M14.6479 0.0986096C14.5381 0.0340452 14.4131 0 14.2857 0C14.1584 0 14.0333 0.0340452 13.9236 0.0986096L1.16504 7.60358L1.88932 8.83501L14.2857 1.54289L26.6821 8.83572L27.4064 7.6043L22.8571 4.92859V1.42861C22.8571 1.23917 22.7819 1.05748 22.6479 0.923531C22.5139 0.789577 22.3323 0.714322 22.1428 0.714322H20C19.8105 0.714322 19.6289 0.789577 19.4949 0.923531C19.3609 1.05748 19.2857 1.23917 19.2857 1.42861V2.82646L14.6479 0.0986096ZM7.14288 10.7143H15V15H7.14288V10.7143Z" fill="black" fill-opacity="0.7"/>
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M14.2857 2.85718L4.2857 8.57144V18.5714H0.714283C0.524844 18.5714 0.343163 18.6467 0.209209 18.7806C0.0752548 18.9146 0 19.0963 0 19.2857C0 19.4751 0.0752548 19.6568 0.209209 19.7908C0.343163 19.9247 0.524844 20 0.714283 20H26.4285C26.6179 20 26.7996 19.9247 26.9336 19.7908C27.0675 19.6568 27.1428 19.4751 27.1428 19.2857C27.1428 19.0963 27.0675 18.9146 26.9336 18.7806C26.7996 18.6467 26.6179 18.5714 26.4285 18.5714H24.2856V8.57144L14.2857 2.85718ZM14.2857 4.50217L5.71427 9.40073V18.5714H17.1428V10.7143H21.4285V18.5714H22.8571V9.40001L14.2857 4.50217Z" fill="black" fill-opacity="0.7"/>
+                                </svg>
+                                <span >Entrée personnelle</span>
+                        </button>
+                         <button type="button" >
+                                <svg  viewBox="0 0 30 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M16 18.7145C16 18.9908 15.9064 19.2557 15.7397 19.451C15.573 19.6464 15.3469 19.7561 15.1111 19.7561H0.888889C0.653141 19.7561 0.427049 19.6464 0.26035 19.451C0.0936507 19.2557 2.13965e-07 18.9908 2.13965e-07 18.7145V7.76778C-9.37633e-05 7.60906 0.0307708 7.45241 0.0902365 7.30981C0.149702 7.1672 0.236196 7.0424 0.343111 6.94495L7.45422 0.463346C7.61026 0.321117 7.80231 0.243896 8 0.243896C8.19769 0.243896 8.38974 0.321117 8.54578 0.463346L15.6569 6.94495C15.7638 7.0424 15.8503 7.1672 15.9098 7.30981C15.9692 7.45241 16.0001 7.60906 16 7.76778V18.7145ZM14.2222 17.673V8.27606L8 2.60583L1.77778 8.27606V17.673H14.2222Z" fill="black" fill-opacity="0.7"/>
+                                <path d="M30 18.7145C30 18.9908 29.9064 19.2557 29.7397 19.451C29.573 19.6464 29.3469 19.7561 29.1111 19.7561H14.8889C14.6531 19.7561 14.427 19.6464 14.2603 19.451C14.0937 19.2557 14 18.9908 14 18.7145V7.76778C13.9999 7.60906 14.0308 7.45241 14.0902 7.30981C14.1497 7.1672 14.2362 7.0424 14.3431 6.94495L21.4542 0.463346C21.6103 0.321117 21.8023 0.243896 22 0.243896C22.1977 0.243896 22.3897 0.321117 22.5458 0.463346L29.6569 6.94495C29.7638 7.0424 29.8503 7.1672 29.9098 7.30981C29.9692 7.45241 30.0001 7.60906 30 7.76778V18.7145ZM28.2222 17.673V8.27606L22 2.60583L15.7778 8.27606V17.673H28.2222Z" fill="black" fill-opacity="0.7"/>
+                                </svg>
+                                <span >Cours commune</span>
+                        </button>
+                       
+                    </div>
+                </div>
+
+                <!--Articles-->
+                 
+                <section class="text-gray-600 flex w-full mx-auto default-font">
+                  <div class="container px-0 py-8 mx-auto flex flex-wrap w-full">
+                    <div class="flex flex-wrap mx-auto  -m-4 w-full justify-between">
+                        <!--Card 1-->
+                      <div class="  rounded-3xl  shadow-sm bg-gray-50 border e-card">
+                        <a class="block e-card-imgs   relative     h-72 w-full rounded-3xl rounded-ee-none overflow-hidden">
+                             <div id="default-carousel" class="relative w-full h-full z-0  p-0 default-font" data-carousel="slide">
+                                    <!-- Carousel wrapper -->
+                                    <div class="relative  overflow-hidden rounded-lg h-full bg-transparent">
+                                        <!-- Item 1 -->
+                                        <div class="  duration-700 ease-in-out bg-transparent" data-carousel-item>
+                                        
+                                            <div class="block w-full h-full bg-blue-300   -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 absolute p-0  dark:bg-gray-800 dark:border-gray-700 ">         
+                                                     <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="media/img/img1.jpg">
+                        
+                                            </div>
+
+                                        </div>
+                                        <!-- Item 2 -->
+                                        <div class=" duration-700 ease-in-out" data-carousel-item>
+                                        
+                                            <div class="block w-full h-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 absolute p-0 dark:bg-gray-800 dark:border-gray-700">          
+                                            
+                                              <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://dummyimage.com/420x260">
+                        
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <!-- Slider indicators -->
+                                    <div class="absolute z-30  flex -translate-x-1/2 bottom-5 left-1/2 space-x-3 rtl:space-x-reverse -translate-y-14">
+                                        <button type="button" class="w-3 h-1 rounded-full" aria-current="true" aria-label="Slide 1" data-carousel-slide-to="0"></button>
+                                        <button type="button" class="w-3 h-1 rounded-full " aria-current="false" aria-label="Slide 2" data-carousel-slide-to="1"></button>
+                                        </div>
+                                    <!-- Slider controls -->
+                                    <button type="button" class=" absolute   top-1/2 -mt-4 -start-2 z-30 flex items-center justify-center h-max px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
+                                        <span class="inline-flex items-center justify-center w-5 h-5 rounded-full bg-white dark:bg-gray-800/30 group-hover:bg-orange-300 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                                            <svg class="w-3 h-3 text-gray-400 hover:text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4"/>
+                                            </svg>
+                                            <span class="sr-only">Previous</span>
+                                        </span>
+                                    </button>
+                                    <button type="button" class=" absolute   top-1/2 -mt-4 -end-2 z-30 flex items-center justify-center h-max  px-4 cursor-pointer group focus:outline-none" data-carousel-next>
+                                        <span class="inline-flex items-center justify-center w-5 h-5 rounded-full bg-white dark:bg-gray-800/30 group-hover:bg-orange-300 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                                            <svg class="w-3 h-3 text-gray-400 hover:text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
+                                            </svg>
+                                            <span class="sr-only">Next</span>
+                                        </span>
+                                    </button>
+                                    <!-- like btn-->
+                                    <div class="flex end-0 absolute top-3  ">
+
+                                    <button type="button" class="  z-40 flex items-center justify-center checked:bg-slate-600 h-full px-4 cursor-pointer group focus:outline-none" >
+                                        <span class="inline-flex items-center justify-center w-5 h-5 rounded-full bg-white dark:bg-gray-800/30 group-hover:bg-orange-300 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                                            <svg class="w-3 h-3 text-gray-400 hover:text-white dark:text-gray-800 rtl:rotate-180" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                                <path d="M225.8 468.2l-2.5-2.3L48.1 303.2C17.4 274.7 0 234.7 0 192.8l0-3.3c0-70.4 50-130.8 119.2-144C158.6 37.9 198.9 47 231 69.6c9 6.4 17.4 13.8 25 22.3c4.2-4.8 8.7-9.2 13.5-13.3c3.7-3.2 7.5-6.2 11.5-9c0 0 0 0 0 0C313.1 47 353.4 37.9 392.8 45.4C462 58.6 512 119.1 512 189.5l0 3.3c0 41.9-17.4 81.9-48.1 110.4L288.7 465.9l-2.5 2.3c-8.2 7.6-19 11.9-30.2 11.9s-22-4.2-30.2-11.9zM239.1 145c-.4-.3-.7-.7-1-1.1l-17.8-20-.1-.1s0 0 0 0c-23.1-25.9-58-37.7-92-31.2C81.6 101.5 48 142.1 48 189.5l0 3.3c0 28.5 11.9 55.8 32.8 75.2L256 430.7 431.2 268c20.9-19.4 32.8-46.7 32.8-75.2l0-3.3c0-47.3-33.6-88-80.1-96.9c-34-6.5-69 5.4-92 31.2c0 0 0 0-.1 .1s0 0-.1 .1l-17.8 20c-.3 .4-.7 .7-1 1.1c-4.5 4.5-10.6 7-16.9 7s-12.4-2.5-16.9-7z"/></svg>
+                                            <span class="sr-only">like it</span>
+                                        </span>
+                                    </button>
+                                    </div>
+
+                                     <!-- zoom btn-->
+                                    <div class="flex end-0 absolute top-full -mt-20  ">
+
+                                    <button type="button" class="  z-40 flex items-center justify-center checked:bg-slate-600 h-full px-4 cursor-pointer group focus:outline-none" >
+                                        <span class="inline-flex items-center justify-center w-5 h-5  hover:scale-150  group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                                            <svg class="w-4 h-4 fill-gray-300 text-gray-400 hover:text-white dark:text-gray-800 rtl:rotate-180" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                                <path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM184 296c0 13.3 10.7 24 24 24s24-10.7 24-24l0-64 64 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-64 0 0-64c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 64-64 0c-13.3 0-24 10.7-24 24s10.7 24 24 24l64 0 0 64z"/></svg>
+                                            <span class="sr-only">like it</span>
+                                        </span>
+                                    </button>
+                                    </div>
+                                </div>
+                          <img alt="ecommerce" class="object-cover object-center w-full h-56 block" src="https://dummyimage.com/420x260">
+                        </a>
+                        <div id="" class="e-cardInfos relative -mt-16  p-3 pt-0  bg-gray-50 rounded-e-3xl rounded-es-3xl ">
+                            <div class="h-8 p-3n -ml-3  flex rounded-es-3xl bg-transparent "></div>
+                          <h2 class="text-gray-950 font-bold mb-1 text-lg">2 Pièces - Sanitaire</h2>
+                          <p class=" flex text-sm font-medium">
+                            <svg class="w-4 h-4 my-auto mr-2" viewBox="0 0 20 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M9.99355 7.62785e-05C9.74897 0.000224534 9.51332 0.0920689 9.33315 0.257476L0.295151 8.22608C0.292322 8.22858 0.289521 8.23111 0.286751 8.23368C-0.00404868 8.50268 -0.0716487 8.94168 0.0747513 9.26208C0.221151 9.58268 0.564351 9.81188 0.953551 9.81208H3.28395V17.5137C3.28395 18.0395 3.74155 18.4317 4.24335 18.4319H15.7562C16.258 18.4319 16.7156 18.0395 16.7156 17.5139V9.81208H19.0462C19.4354 9.81208 19.7786 9.58288 19.925 9.26228C20.0714 8.94188 20.0038 8.50268 19.713 8.23368C19.7102 8.23111 19.7074 8.22858 19.7046 8.22608L10.6668 0.257476C10.4833 0.0890348 10.2426 -0.00303332 9.99355 7.62785e-05ZM9.99995 4.85748C12.12 4.85748 13.8566 6.58948 13.8566 8.70328C13.8566 9.21228 13.7552 9.69908 13.5726 10.1449C13.5333 10.2625 13.484 10.3765 13.4254 10.4857L10.4674 15.5197C10.155 15.9431 9.90535 16.0363 9.52955 15.5457L6.84755 10.9095C6.38954 10.265 6.14343 9.49394 6.14335 8.70328C6.14335 6.58928 7.87995 4.85728 9.99995 4.85728M9.99995 6.65928C8.85835 6.65928 7.95035 7.56468 7.95035 8.70308C7.95035 9.84128 8.85835 10.7467 9.99995 10.7467C11.1416 10.7467 12.0496 9.84128 12.0496 8.70308C12.0496 7.56468 11.1416 6.65928 9.99995 6.65928Z" fill="#FFD233"/>
+                            </svg>
+                            Bidossessi, Abomey-Calavi</p>
+                          <p class="mt-1 my-3"><span class="text-lg  text-gray-950 font-bold ">51.000</span> <span>Fcfa / mois</span></p>
+                          <div class="text-gray-900  text-xs align-middle  justify-between font-medium  flex w-full my-auto"> 
+                            <div class="flex">
+                                <svg class="w-8 h-8 stroke-slate-400 border border-gray-300 rounded-full p-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc. --><path d="M304 128a80 80 0 1 0 -160 0 80 80 0 1 0 160 0zM96 128a128 128 0 1 1 256 0A128 128 0 1 1 96 128zM49.3 464l349.5 0c-8.9-63.3-63.3-112-129-112l-91.4 0c-65.7 0-120.1 48.7-129 112zM0 482.3C0 383.8 79.8 304 178.3 304l91.4 0C368.2 304 448 383.8 448 482.3c0 16.4-13.3 29.7-29.7 29.7L29.7 512C13.3 512 0 498.7 0 482.3z"/></svg>
+                               <span class="ml-2 my-auto text-gray-500">The Catalyzer</span> 
+                               <svg class="w-4 h-4 my-auto ml-2" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M4.26686 1.45498C4.91012 1.40362 5.52077 1.15061 6.01186 0.731982C6.56652 0.259573 7.27129 0.00012207 7.99986 0.00012207C8.72843 0.00012207 9.4332 0.259573 9.98786 0.731982C10.4789 1.15061 11.0896 1.40362 11.7329 1.45498C12.4593 1.51304 13.1413 1.82794 13.6566 2.34325C14.1719 2.85855 14.4868 3.54055 14.5449 4.26698C14.5959 4.90998 14.8489 5.52098 15.2679 6.01198C15.7403 6.56665 15.9997 7.27141 15.9997 7.99998C15.9997 8.72856 15.7403 9.43332 15.2679 9.98798C14.8492 10.4791 14.5962 11.0897 14.5449 11.733C14.4868 12.4594 14.1719 13.1414 13.6566 13.6567C13.1413 14.172 12.4593 14.4869 11.7329 14.545C11.0896 14.5963 10.4789 14.8494 9.98786 15.268C9.4332 15.7404 8.72843 15.9998 7.99986 15.9998C7.27129 15.9998 6.56652 15.7404 6.01186 15.268C5.52077 14.8494 4.91012 14.5963 4.26686 14.545C3.54043 14.4869 2.85843 14.172 2.34313 13.6567C1.82782 13.1414 1.51292 12.4594 1.45486 11.733C1.4035 11.0897 1.15049 10.4791 0.73186 9.98798C0.259451 9.43332 0 8.72856 0 7.99998C0 7.27141 0.259451 6.56665 0.73186 6.01198C1.15049 5.5209 1.4035 4.91024 1.45486 4.26698C1.51292 3.54055 1.82782 2.85855 2.34313 2.34325C2.85843 1.82794 3.54043 1.51304 4.26686 1.45498ZM11.7069 6.70698C11.889 6.51838 11.9898 6.26578 11.9875 6.00358C11.9853 5.74138 11.8801 5.49057 11.6947 5.30516C11.5093 5.11976 11.2585 5.01459 10.9963 5.01231C10.7341 5.01003 10.4815 5.11082 10.2929 5.29298L6.99986 8.58598L5.70686 7.29298C5.51826 7.11083 5.26566 7.01003 5.00346 7.01231C4.74126 7.01459 4.49045 7.11976 4.30504 7.30516C4.11963 7.49057 4.01446 7.74138 4.01219 8.00358C4.00991 8.26578 4.1107 8.51838 4.29286 8.70698L6.29286 10.707C6.48039 10.8945 6.7347 10.9998 6.99986 10.9998C7.26502 10.9998 7.51933 10.8945 7.70686 10.707L11.7069 6.70698Z" fill="#FFC801"/>
+                                </svg></div>
+                               <span class=" rounded-xl p-1 px-2 bg-orange-200 my-auto uppercase">&Agrave; louer</span>
+                               </div>
+                        </div>
+                      </div>
+
+                       <!--Card 2-->
+                      <div class="e-card  rounded-3xl shadow-sm bg-gray-50 border ">
+                        <a class="block e-card-imgs   relative     h-72 w-full rounded-3xl rounded-ee-none overflow-hidden">
+                             <div id="default-carousel" class="relative w-full h-full z-0  p-0 default-font" data-carousel="slide">
+                                    <!-- Carousel wrapper -->
+                                    <div class="relative  overflow-hidden rounded-lg h-full bg-transparent">
+                                        <!-- Item 1 -->
+                                        <div class="  duration-700 ease-in-out bg-transparent" data-carousel-item>
+                                        
+                                            <div class="block w-full h-full bg-blue-300   -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 absolute p-0  dark:bg-gray-800 dark:border-gray-700 ">         
+                                                     <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="media/img/img1.jpg">
+                        
+                                            </div>
+
+                                        </div>
+                                        <!-- Item 2 -->
+                                        <div class=" duration-700 ease-in-out" data-carousel-item>
+                                        
+                                            <div class="block w-full h-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 absolute p-0 dark:bg-gray-800 dark:border-gray-700">          
+                                            
+                                              <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://dummyimage.com/420x260">
+                        
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <!-- Slider indicators -->
+                                    <div class="absolute z-30  flex -translate-x-1/2 bottom-5 left-1/2 space-x-3 rtl:space-x-reverse -translate-y-14">
+                                        <button type="button" class="w-3 h-1 rounded-full" aria-current="true" aria-label="Slide 1" data-carousel-slide-to="0"></button>
+                                        <button type="button" class="w-3 h-1 rounded-full " aria-current="false" aria-label="Slide 2" data-carousel-slide-to="1"></button>
+                                        </div>
+                                    <!-- Slider controls -->
+                                    <button type="button" class=" absolute top-0  -start-2 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
+                                        <span class="inline-flex items-center justify-center w-5 h-5 rounded-full bg-white dark:bg-gray-800/30 group-hover:bg-orange-300 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                                            <svg class="w-3 h-3 text-gray-400 hover:text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4"/>
+                                            </svg>
+                                            <span class="sr-only">Previous</span>
+                                        </span>
+                                    </button>
+                                    <button type="button" class=" absolute top-0 -end-2 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
+                                        <span class="inline-flex items-center justify-center w-5 h-5 rounded-full bg-white dark:bg-gray-800/30 group-hover:bg-orange-300 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                                            <svg class="w-3 h-3 text-gray-400 hover:text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
+                                            </svg>
+                                            <span class="sr-only">Next</span>
+                                        </span>
+                                    </button>
+                                </div>
+                          <img alt="ecommerce" class="object-cover object-center w-full h-56 block" src="https://dummyimage.com/420x260">
+                        </a>
+                        <div id="" class="e-cardInfos relative -mt-16  p-3 pt-0  bg-gray-50 rounded-e-3xl rounded-es-3xl ">
+                            <div class="h-8 p-3n -ml-3  flex rounded-es-3xl bg-transparent "></div>
+                          <h2 class="text-gray-950 font-bold mb-1 text-lg">2 Pièces - Sanitaire</h2>
+                          <p class=" flex text-sm font-medium">
+                            <svg class="w-4 h-4 my-auto mr-2" viewBox="0 0 20 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M9.99355 7.62785e-05C9.74897 0.000224534 9.51332 0.0920689 9.33315 0.257476L0.295151 8.22608C0.292322 8.22858 0.289521 8.23111 0.286751 8.23368C-0.00404868 8.50268 -0.0716487 8.94168 0.0747513 9.26208C0.221151 9.58268 0.564351 9.81188 0.953551 9.81208H3.28395V17.5137C3.28395 18.0395 3.74155 18.4317 4.24335 18.4319H15.7562C16.258 18.4319 16.7156 18.0395 16.7156 17.5139V9.81208H19.0462C19.4354 9.81208 19.7786 9.58288 19.925 9.26228C20.0714 8.94188 20.0038 8.50268 19.713 8.23368C19.7102 8.23111 19.7074 8.22858 19.7046 8.22608L10.6668 0.257476C10.4833 0.0890348 10.2426 -0.00303332 9.99355 7.62785e-05ZM9.99995 4.85748C12.12 4.85748 13.8566 6.58948 13.8566 8.70328C13.8566 9.21228 13.7552 9.69908 13.5726 10.1449C13.5333 10.2625 13.484 10.3765 13.4254 10.4857L10.4674 15.5197C10.155 15.9431 9.90535 16.0363 9.52955 15.5457L6.84755 10.9095C6.38954 10.265 6.14343 9.49394 6.14335 8.70328C6.14335 6.58928 7.87995 4.85728 9.99995 4.85728M9.99995 6.65928C8.85835 6.65928 7.95035 7.56468 7.95035 8.70308C7.95035 9.84128 8.85835 10.7467 9.99995 10.7467C11.1416 10.7467 12.0496 9.84128 12.0496 8.70308C12.0496 7.56468 11.1416 6.65928 9.99995 6.65928Z" fill="#FFD233"/>
+                            </svg>
+                            Bidossessi, Abomey-Calavi</p>
+                          <p class="mt-1 my-3"><span class="text-lg  text-gray-950 font-bold ">51.000</span> <span>Fcfa / mois</span></p>
+                          <div class="text-gray-900  text-xs align-middle  justify-between font-medium  flex w-full my-auto"> 
+                            <div class="flex">
+                                <svg class="w-8 h-8 stroke-slate-400 border border-gray-300 rounded-full p-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc. --><path d="M304 128a80 80 0 1 0 -160 0 80 80 0 1 0 160 0zM96 128a128 128 0 1 1 256 0A128 128 0 1 1 96 128zM49.3 464l349.5 0c-8.9-63.3-63.3-112-129-112l-91.4 0c-65.7 0-120.1 48.7-129 112zM0 482.3C0 383.8 79.8 304 178.3 304l91.4 0C368.2 304 448 383.8 448 482.3c0 16.4-13.3 29.7-29.7 29.7L29.7 512C13.3 512 0 498.7 0 482.3z"/></svg>
+                               <span class="ml-2 my-auto text-gray-500">The Catalyzer</span> 
+                               <svg class="w-4 h-4 my-auto ml-2" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M4.26686 1.45498C4.91012 1.40362 5.52077 1.15061 6.01186 0.731982C6.56652 0.259573 7.27129 0.00012207 7.99986 0.00012207C8.72843 0.00012207 9.4332 0.259573 9.98786 0.731982C10.4789 1.15061 11.0896 1.40362 11.7329 1.45498C12.4593 1.51304 13.1413 1.82794 13.6566 2.34325C14.1719 2.85855 14.4868 3.54055 14.5449 4.26698C14.5959 4.90998 14.8489 5.52098 15.2679 6.01198C15.7403 6.56665 15.9997 7.27141 15.9997 7.99998C15.9997 8.72856 15.7403 9.43332 15.2679 9.98798C14.8492 10.4791 14.5962 11.0897 14.5449 11.733C14.4868 12.4594 14.1719 13.1414 13.6566 13.6567C13.1413 14.172 12.4593 14.4869 11.7329 14.545C11.0896 14.5963 10.4789 14.8494 9.98786 15.268C9.4332 15.7404 8.72843 15.9998 7.99986 15.9998C7.27129 15.9998 6.56652 15.7404 6.01186 15.268C5.52077 14.8494 4.91012 14.5963 4.26686 14.545C3.54043 14.4869 2.85843 14.172 2.34313 13.6567C1.82782 13.1414 1.51292 12.4594 1.45486 11.733C1.4035 11.0897 1.15049 10.4791 0.73186 9.98798C0.259451 9.43332 0 8.72856 0 7.99998C0 7.27141 0.259451 6.56665 0.73186 6.01198C1.15049 5.5209 1.4035 4.91024 1.45486 4.26698C1.51292 3.54055 1.82782 2.85855 2.34313 2.34325C2.85843 1.82794 3.54043 1.51304 4.26686 1.45498ZM11.7069 6.70698C11.889 6.51838 11.9898 6.26578 11.9875 6.00358C11.9853 5.74138 11.8801 5.49057 11.6947 5.30516C11.5093 5.11976 11.2585 5.01459 10.9963 5.01231C10.7341 5.01003 10.4815 5.11082 10.2929 5.29298L6.99986 8.58598L5.70686 7.29298C5.51826 7.11083 5.26566 7.01003 5.00346 7.01231C4.74126 7.01459 4.49045 7.11976 4.30504 7.30516C4.11963 7.49057 4.01446 7.74138 4.01219 8.00358C4.00991 8.26578 4.1107 8.51838 4.29286 8.70698L6.29286 10.707C6.48039 10.8945 6.7347 10.9998 6.99986 10.9998C7.26502 10.9998 7.51933 10.8945 7.70686 10.707L11.7069 6.70698Z" fill="#FFC801"/>
+                                </svg></div>
+                               <span class=" rounded-xl p-1 px-2 bg-orange-200 my-auto uppercase">&Agrave; louer</span>
+                               </div>
+                        </div>
+                      </div>
+
+
+                       <!--Card 3-->
+                      <div class="e-card rounded-3xl  shadow-sm bg-gray-50 border ">
+                        <a class="block e-card-imgs   relative     h-72 w-full rounded-3xl rounded-ee-none overflow-hidden">
+                             <div id="default-carousel" class="relative w-full h-full z-0  p-0 default-font" data-carousel="slide">
+                                    <!-- Carousel wrapper -->
+                                    <div class="relative  overflow-hidden rounded-lg h-full bg-transparent">
+                                        <!-- Item 1 -->
+                                        <div class="  duration-700 ease-in-out bg-transparent" data-carousel-item>
+                                        
+                                            <div class="block w-full h-full bg-blue-300   -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 absolute p-0  dark:bg-gray-800 dark:border-gray-700 ">         
+                                                     <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="media/img/img1.jpg">
+                        
+                                            </div>
+
+                                        </div>
+                                        <!-- Item 2 -->
+                                        <div class=" duration-700 ease-in-out" data-carousel-item>
+                                        
+                                            <div class="block w-full h-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 absolute p-0 dark:bg-gray-800 dark:border-gray-700">          
+                                            
+                                              <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://dummyimage.com/420x260">
+                        
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <!-- Slider indicators -->
+                                    <div class="absolute z-30  flex -translate-x-1/2 bottom-5 left-1/2 space-x-3 rtl:space-x-reverse -translate-y-14">
+                                        <button type="button" class="w-3 h-1 rounded-full" aria-current="true" aria-label="Slide 1" data-carousel-slide-to="0"></button>
+                                        <button type="button" class="w-3 h-1 rounded-full " aria-current="false" aria-label="Slide 2" data-carousel-slide-to="1"></button>
+                                        </div>
+                                    <!-- Slider controls -->
+                                    <button type="button" class=" absolute top-0  -start-2 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
+                                        <span class="inline-flex items-center justify-center w-5 h-5 rounded-full bg-white dark:bg-gray-800/30 group-hover:bg-orange-300 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                                            <svg class="w-3 h-3 text-gray-400 hover:text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4"/>
+                                            </svg>
+                                            <span class="sr-only">Previous</span>
+                                        </span>
+                                    </button>
+                                    <button type="button" class=" absolute top-0 -end-2 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
+                                        <span class="inline-flex items-center justify-center w-5 h-5 rounded-full bg-white dark:bg-gray-800/30 group-hover:bg-orange-300 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                                            <svg class="w-3 h-3 text-gray-400 hover:text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
+                                            </svg>
+                                            <span class="sr-only">Next</span>
+                                        </span>
+                                    </button>
+                                </div>
+                          <img alt="ecommerce" class="object-cover object-center w-full h-56 block" src="https://dummyimage.com/420x260">
+                        </a>
+                        <div id="" class="e-cardInfos relative -mt-16  p-3 pt-0  bg-gray-50 rounded-e-3xl rounded-es-3xl ">
+                            <div class="h-8 p-3n -ml-3  flex rounded-es-3xl bg-transparent "></div>
+                          <h2 class="text-gray-950 font-bold mb-1 text-lg">2 Pièces - Sanitaire</h2>
+                          <p class=" flex text-sm font-medium">
+                            <svg class="w-4 h-4 my-auto mr-2" viewBox="0 0 20 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M9.99355 7.62785e-05C9.74897 0.000224534 9.51332 0.0920689 9.33315 0.257476L0.295151 8.22608C0.292322 8.22858 0.289521 8.23111 0.286751 8.23368C-0.00404868 8.50268 -0.0716487 8.94168 0.0747513 9.26208C0.221151 9.58268 0.564351 9.81188 0.953551 9.81208H3.28395V17.5137C3.28395 18.0395 3.74155 18.4317 4.24335 18.4319H15.7562C16.258 18.4319 16.7156 18.0395 16.7156 17.5139V9.81208H19.0462C19.4354 9.81208 19.7786 9.58288 19.925 9.26228C20.0714 8.94188 20.0038 8.50268 19.713 8.23368C19.7102 8.23111 19.7074 8.22858 19.7046 8.22608L10.6668 0.257476C10.4833 0.0890348 10.2426 -0.00303332 9.99355 7.62785e-05ZM9.99995 4.85748C12.12 4.85748 13.8566 6.58948 13.8566 8.70328C13.8566 9.21228 13.7552 9.69908 13.5726 10.1449C13.5333 10.2625 13.484 10.3765 13.4254 10.4857L10.4674 15.5197C10.155 15.9431 9.90535 16.0363 9.52955 15.5457L6.84755 10.9095C6.38954 10.265 6.14343 9.49394 6.14335 8.70328C6.14335 6.58928 7.87995 4.85728 9.99995 4.85728M9.99995 6.65928C8.85835 6.65928 7.95035 7.56468 7.95035 8.70308C7.95035 9.84128 8.85835 10.7467 9.99995 10.7467C11.1416 10.7467 12.0496 9.84128 12.0496 8.70308C12.0496 7.56468 11.1416 6.65928 9.99995 6.65928Z" fill="#FFD233"/>
+                            </svg>
+                            Bidossessi, Abomey-Calavi</p>
+                          <p class="mt-1 my-3"><span class="text-lg  text-gray-950 font-bold ">51.000</span> <span>Fcfa / mois</span></p>
+                          <div class="text-gray-900  text-xs align-middle  justify-between font-medium  flex w-full my-auto"> 
+                            <div class="flex">
+                                <svg class="w-8 h-8 stroke-slate-400 border border-gray-300 rounded-full p-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc. --><path d="M304 128a80 80 0 1 0 -160 0 80 80 0 1 0 160 0zM96 128a128 128 0 1 1 256 0A128 128 0 1 1 96 128zM49.3 464l349.5 0c-8.9-63.3-63.3-112-129-112l-91.4 0c-65.7 0-120.1 48.7-129 112zM0 482.3C0 383.8 79.8 304 178.3 304l91.4 0C368.2 304 448 383.8 448 482.3c0 16.4-13.3 29.7-29.7 29.7L29.7 512C13.3 512 0 498.7 0 482.3z"/></svg>
+                               <span class="ml-2 my-auto text-gray-500">The Catalyzer</span> 
+                               <svg class="w-4 h-4 my-auto ml-2" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M4.26686 1.45498C4.91012 1.40362 5.52077 1.15061 6.01186 0.731982C6.56652 0.259573 7.27129 0.00012207 7.99986 0.00012207C8.72843 0.00012207 9.4332 0.259573 9.98786 0.731982C10.4789 1.15061 11.0896 1.40362 11.7329 1.45498C12.4593 1.51304 13.1413 1.82794 13.6566 2.34325C14.1719 2.85855 14.4868 3.54055 14.5449 4.26698C14.5959 4.90998 14.8489 5.52098 15.2679 6.01198C15.7403 6.56665 15.9997 7.27141 15.9997 7.99998C15.9997 8.72856 15.7403 9.43332 15.2679 9.98798C14.8492 10.4791 14.5962 11.0897 14.5449 11.733C14.4868 12.4594 14.1719 13.1414 13.6566 13.6567C13.1413 14.172 12.4593 14.4869 11.7329 14.545C11.0896 14.5963 10.4789 14.8494 9.98786 15.268C9.4332 15.7404 8.72843 15.9998 7.99986 15.9998C7.27129 15.9998 6.56652 15.7404 6.01186 15.268C5.52077 14.8494 4.91012 14.5963 4.26686 14.545C3.54043 14.4869 2.85843 14.172 2.34313 13.6567C1.82782 13.1414 1.51292 12.4594 1.45486 11.733C1.4035 11.0897 1.15049 10.4791 0.73186 9.98798C0.259451 9.43332 0 8.72856 0 7.99998C0 7.27141 0.259451 6.56665 0.73186 6.01198C1.15049 5.5209 1.4035 4.91024 1.45486 4.26698C1.51292 3.54055 1.82782 2.85855 2.34313 2.34325C2.85843 1.82794 3.54043 1.51304 4.26686 1.45498ZM11.7069 6.70698C11.889 6.51838 11.9898 6.26578 11.9875 6.00358C11.9853 5.74138 11.8801 5.49057 11.6947 5.30516C11.5093 5.11976 11.2585 5.01459 10.9963 5.01231C10.7341 5.01003 10.4815 5.11082 10.2929 5.29298L6.99986 8.58598L5.70686 7.29298C5.51826 7.11083 5.26566 7.01003 5.00346 7.01231C4.74126 7.01459 4.49045 7.11976 4.30504 7.30516C4.11963 7.49057 4.01446 7.74138 4.01219 8.00358C4.00991 8.26578 4.1107 8.51838 4.29286 8.70698L6.29286 10.707C6.48039 10.8945 6.7347 10.9998 6.99986 10.9998C7.26502 10.9998 7.51933 10.8945 7.70686 10.707L11.7069 6.70698Z" fill="#FFC801"/>
+                                </svg></div>
+                               <span class=" rounded-xl p-1 px-2 bg-orange-200 my-auto uppercase">&Agrave; louer</span>
+                               </div>
+                        </div>
+                      </div>
+                       <!--Card 4-->
+                      <div class="e-card  rounded-3xl  shadow-sm bg-gray-50 border ">
+                        <a class="block e-card-imgs   relative     h-72 w-full rounded-3xl rounded-ee-none overflow-hidden">
+                             <div id="default-carousel" class="relative w-full h-full z-0  p-0 default-font" data-carousel="slide">
+                                    <!-- Carousel wrapper -->
+                                    <div class="relative  overflow-hidden rounded-lg h-full bg-transparent">
+                                        <!-- Item 1 -->
+                                        <div class="  duration-700 ease-in-out bg-transparent" data-carousel-item>
+                                        
+                                            <div class="block w-full h-full bg-blue-300   -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 absolute p-0  dark:bg-gray-800 dark:border-gray-700 ">         
+                                                     <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="media/img/img1.jpg">
+                        
+                                            </div>
+
+                                        </div>
+                                        <!-- Item 2 -->
+                                        <div class=" duration-700 ease-in-out" data-carousel-item>
+                                        
+                                            <div class="block w-full h-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 absolute p-0 dark:bg-gray-800 dark:border-gray-700">          
+                                            
+                                              <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://dummyimage.com/420x260">
+                        
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <!-- Slider indicators -->
+                                    <div class="absolute z-30  flex -translate-x-1/2 bottom-5 left-1/2 space-x-3 rtl:space-x-reverse -translate-y-14">
+                                        <button type="button" class="w-3 h-1 rounded-full" aria-current="true" aria-label="Slide 1" data-carousel-slide-to="0"></button>
+                                        <button type="button" class="w-3 h-1 rounded-full " aria-current="false" aria-label="Slide 2" data-carousel-slide-to="1"></button>
+                                        </div>
+                                    <!-- Slider controls -->
+                                    <button type="button" class=" absolute top-0  -start-2 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
+                                        <span class="inline-flex items-center justify-center w-5 h-5 rounded-full bg-white dark:bg-gray-800/30 group-hover:bg-orange-300 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                                            <svg class="w-3 h-3 text-gray-400 hover:text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4"/>
+                                            </svg>
+                                            <span class="sr-only">Previous</span>
+                                        </span>
+                                    </button>
+                                    <button type="button" class=" absolute top-0 -end-2 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
+                                        <span class="inline-flex items-center justify-center w-5 h-5 rounded-full bg-white dark:bg-gray-800/30 group-hover:bg-orange-300 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                                            <svg class="w-3 h-3 text-gray-400 hover:text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
+                                            </svg>
+                                            <span class="sr-only">Next</span>
+                                        </span>
+                                    </button>
+                                </div>
+                          <img alt="ecommerce" class="object-cover object-center w-full h-56 block" src="https://dummyimage.com/420x260">
+                        </a>
+                        <div id="" class="e-cardInfos relative -mt-16  p-3 pt-0  bg-gray-50 rounded-e-3xl rounded-es-3xl ">
+                            <div class="h-8 p-3n -ml-3  flex rounded-es-3xl bg-transparent "></div>
+                          <h2 class="text-gray-950 font-bold mb-1 text-lg">2 Pièces - Sanitaire</h2>
+                          <p class=" flex text-sm font-medium">
+                            <svg class="w-4 h-4 my-auto mr-2" viewBox="0 0 20 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M9.99355 7.62785e-05C9.74897 0.000224534 9.51332 0.0920689 9.33315 0.257476L0.295151 8.22608C0.292322 8.22858 0.289521 8.23111 0.286751 8.23368C-0.00404868 8.50268 -0.0716487 8.94168 0.0747513 9.26208C0.221151 9.58268 0.564351 9.81188 0.953551 9.81208H3.28395V17.5137C3.28395 18.0395 3.74155 18.4317 4.24335 18.4319H15.7562C16.258 18.4319 16.7156 18.0395 16.7156 17.5139V9.81208H19.0462C19.4354 9.81208 19.7786 9.58288 19.925 9.26228C20.0714 8.94188 20.0038 8.50268 19.713 8.23368C19.7102 8.23111 19.7074 8.22858 19.7046 8.22608L10.6668 0.257476C10.4833 0.0890348 10.2426 -0.00303332 9.99355 7.62785e-05ZM9.99995 4.85748C12.12 4.85748 13.8566 6.58948 13.8566 8.70328C13.8566 9.21228 13.7552 9.69908 13.5726 10.1449C13.5333 10.2625 13.484 10.3765 13.4254 10.4857L10.4674 15.5197C10.155 15.9431 9.90535 16.0363 9.52955 15.5457L6.84755 10.9095C6.38954 10.265 6.14343 9.49394 6.14335 8.70328C6.14335 6.58928 7.87995 4.85728 9.99995 4.85728M9.99995 6.65928C8.85835 6.65928 7.95035 7.56468 7.95035 8.70308C7.95035 9.84128 8.85835 10.7467 9.99995 10.7467C11.1416 10.7467 12.0496 9.84128 12.0496 8.70308C12.0496 7.56468 11.1416 6.65928 9.99995 6.65928Z" fill="#FFD233"/>
+                            </svg>
+                            Bidossessi, Abomey-Calavi</p>
+                          <p class="mt-1 my-3"><span class="text-lg  text-gray-950 font-bold ">51.000</span> <span>Fcfa / mois</span></p>
+                          <div class="text-gray-900  text-xs align-middle  justify-between font-medium  flex w-full my-auto"> 
+                            <div class="flex">
+                                <svg class="w-8 h-8 stroke-slate-400 border border-gray-300 rounded-full p-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc. --><path d="M304 128a80 80 0 1 0 -160 0 80 80 0 1 0 160 0zM96 128a128 128 0 1 1 256 0A128 128 0 1 1 96 128zM49.3 464l349.5 0c-8.9-63.3-63.3-112-129-112l-91.4 0c-65.7 0-120.1 48.7-129 112zM0 482.3C0 383.8 79.8 304 178.3 304l91.4 0C368.2 304 448 383.8 448 482.3c0 16.4-13.3 29.7-29.7 29.7L29.7 512C13.3 512 0 498.7 0 482.3z"/></svg>
+                               <span class="ml-2 my-auto text-gray-500">The Catalyzer</span> 
+                               <svg class="w-4 h-4 my-auto ml-2" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M4.26686 1.45498C4.91012 1.40362 5.52077 1.15061 6.01186 0.731982C6.56652 0.259573 7.27129 0.00012207 7.99986 0.00012207C8.72843 0.00012207 9.4332 0.259573 9.98786 0.731982C10.4789 1.15061 11.0896 1.40362 11.7329 1.45498C12.4593 1.51304 13.1413 1.82794 13.6566 2.34325C14.1719 2.85855 14.4868 3.54055 14.5449 4.26698C14.5959 4.90998 14.8489 5.52098 15.2679 6.01198C15.7403 6.56665 15.9997 7.27141 15.9997 7.99998C15.9997 8.72856 15.7403 9.43332 15.2679 9.98798C14.8492 10.4791 14.5962 11.0897 14.5449 11.733C14.4868 12.4594 14.1719 13.1414 13.6566 13.6567C13.1413 14.172 12.4593 14.4869 11.7329 14.545C11.0896 14.5963 10.4789 14.8494 9.98786 15.268C9.4332 15.7404 8.72843 15.9998 7.99986 15.9998C7.27129 15.9998 6.56652 15.7404 6.01186 15.268C5.52077 14.8494 4.91012 14.5963 4.26686 14.545C3.54043 14.4869 2.85843 14.172 2.34313 13.6567C1.82782 13.1414 1.51292 12.4594 1.45486 11.733C1.4035 11.0897 1.15049 10.4791 0.73186 9.98798C0.259451 9.43332 0 8.72856 0 7.99998C0 7.27141 0.259451 6.56665 0.73186 6.01198C1.15049 5.5209 1.4035 4.91024 1.45486 4.26698C1.51292 3.54055 1.82782 2.85855 2.34313 2.34325C2.85843 1.82794 3.54043 1.51304 4.26686 1.45498ZM11.7069 6.70698C11.889 6.51838 11.9898 6.26578 11.9875 6.00358C11.9853 5.74138 11.8801 5.49057 11.6947 5.30516C11.5093 5.11976 11.2585 5.01459 10.9963 5.01231C10.7341 5.01003 10.4815 5.11082 10.2929 5.29298L6.99986 8.58598L5.70686 7.29298C5.51826 7.11083 5.26566 7.01003 5.00346 7.01231C4.74126 7.01459 4.49045 7.11976 4.30504 7.30516C4.11963 7.49057 4.01446 7.74138 4.01219 8.00358C4.00991 8.26578 4.1107 8.51838 4.29286 8.70698L6.29286 10.707C6.48039 10.8945 6.7347 10.9998 6.99986 10.9998C7.26502 10.9998 7.51933 10.8945 7.70686 10.707L11.7069 6.70698Z" fill="#FFC801"/>
+                                </svg></div>
+                               <span class=" rounded-xl p-1 px-2 bg-orange-200 my-auto uppercase">&Agrave; louer</span>
+                               </div>
+                        </div>
+                      </div>
+
+                        <!--Card 1-->
+                      <div class="  rounded-3xl  shadow-sm bg-gray-50 border e-card">
+                        <a class="block e-card-imgs   relative     h-72 w-full rounded-3xl rounded-ee-none overflow-hidden">
+                             <div id="default-carousel" class="relative w-full h-full z-0  p-0 default-font" data-carousel="slide">
+                                    <!-- Carousel wrapper -->
+                                    <div class="relative  overflow-hidden rounded-lg h-full bg-transparent">
+                                        <!-- Item 1 -->
+                                        <div class="  duration-700 ease-in-out bg-transparent" data-carousel-item>
+                                        
+                                            <div class="block w-full h-full bg-blue-300   -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 absolute p-0  dark:bg-gray-800 dark:border-gray-700 ">         
+                                                     <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="media/img/img1.jpg">
+                        
+                                            </div>
+
+                                        </div>
+                                        <!-- Item 2 -->
+                                        <div class=" duration-700 ease-in-out" data-carousel-item>
+                                        
+                                            <div class="block w-full h-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 absolute p-0 dark:bg-gray-800 dark:border-gray-700">          
+                                            
+                                              <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://dummyimage.com/420x260">
+                        
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <!-- Slider indicators -->
+                                    <div class="absolute z-30  flex -translate-x-1/2 bottom-5 left-1/2 space-x-3 rtl:space-x-reverse -translate-y-14">
+                                        <button type="button" class="w-3 h-1 rounded-full" aria-current="true" aria-label="Slide 1" data-carousel-slide-to="0"></button>
+                                        <button type="button" class="w-3 h-1 rounded-full " aria-current="false" aria-label="Slide 2" data-carousel-slide-to="1"></button>
+                                        </div>
+                                    <!-- Slider controls -->
+                                    <button type="button" class=" absolute top-0  -start-2 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
+                                        <span class="inline-flex items-center justify-center w-5 h-5 rounded-full bg-white dark:bg-gray-800/30 group-hover:bg-orange-300 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                                            <svg class="w-3 h-3 text-gray-400 hover:text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4"/>
+                                            </svg>
+                                            <span class="sr-only">Previous</span>
+                                        </span>
+                                    </button>
+                                    <button type="button" class=" absolute top-0 -end-2 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
+                                        <span class="inline-flex items-center justify-center w-5 h-5 rounded-full bg-white dark:bg-gray-800/30 group-hover:bg-orange-300 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                                            <svg class="w-3 h-3 text-gray-400 hover:text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
+                                            </svg>
+                                            <span class="sr-only">Next</span>
+                                        </span>
+                                    </button>
+                                </div>
+                          <img alt="ecommerce" class="object-cover object-center w-full h-56 block" src="https://dummyimage.com/420x260">
+                        </a>
+                        <div id="" class="e-cardInfos relative -mt-16  p-3 pt-0  bg-gray-50 rounded-e-3xl rounded-es-3xl ">
+                            <div class="h-8 p-3n -ml-3  flex rounded-es-3xl bg-transparent "></div>
+                          <h2 class="text-gray-950 font-bold mb-1 text-lg">2 Pièces - Sanitaire</h2>
+                          <p class=" flex text-sm font-medium">
+                            <svg class="w-4 h-4 my-auto mr-2" viewBox="0 0 20 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M9.99355 7.62785e-05C9.74897 0.000224534 9.51332 0.0920689 9.33315 0.257476L0.295151 8.22608C0.292322 8.22858 0.289521 8.23111 0.286751 8.23368C-0.00404868 8.50268 -0.0716487 8.94168 0.0747513 9.26208C0.221151 9.58268 0.564351 9.81188 0.953551 9.81208H3.28395V17.5137C3.28395 18.0395 3.74155 18.4317 4.24335 18.4319H15.7562C16.258 18.4319 16.7156 18.0395 16.7156 17.5139V9.81208H19.0462C19.4354 9.81208 19.7786 9.58288 19.925 9.26228C20.0714 8.94188 20.0038 8.50268 19.713 8.23368C19.7102 8.23111 19.7074 8.22858 19.7046 8.22608L10.6668 0.257476C10.4833 0.0890348 10.2426 -0.00303332 9.99355 7.62785e-05ZM9.99995 4.85748C12.12 4.85748 13.8566 6.58948 13.8566 8.70328C13.8566 9.21228 13.7552 9.69908 13.5726 10.1449C13.5333 10.2625 13.484 10.3765 13.4254 10.4857L10.4674 15.5197C10.155 15.9431 9.90535 16.0363 9.52955 15.5457L6.84755 10.9095C6.38954 10.265 6.14343 9.49394 6.14335 8.70328C6.14335 6.58928 7.87995 4.85728 9.99995 4.85728M9.99995 6.65928C8.85835 6.65928 7.95035 7.56468 7.95035 8.70308C7.95035 9.84128 8.85835 10.7467 9.99995 10.7467C11.1416 10.7467 12.0496 9.84128 12.0496 8.70308C12.0496 7.56468 11.1416 6.65928 9.99995 6.65928Z" fill="#FFD233"/>
+                            </svg>
+                            Bidossessi, Abomey-Calavi</p>
+                          <p class="mt-1 my-3"><span class="text-lg  text-gray-950 font-bold ">51.000</span> <span>Fcfa / mois</span></p>
+                          <div class="text-gray-900  text-xs align-middle  justify-between font-medium  flex w-full my-auto"> 
+                            <div class="flex">
+                                <svg class="w-8 h-8 stroke-slate-400 border border-gray-300 rounded-full p-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc. --><path d="M304 128a80 80 0 1 0 -160 0 80 80 0 1 0 160 0zM96 128a128 128 0 1 1 256 0A128 128 0 1 1 96 128zM49.3 464l349.5 0c-8.9-63.3-63.3-112-129-112l-91.4 0c-65.7 0-120.1 48.7-129 112zM0 482.3C0 383.8 79.8 304 178.3 304l91.4 0C368.2 304 448 383.8 448 482.3c0 16.4-13.3 29.7-29.7 29.7L29.7 512C13.3 512 0 498.7 0 482.3z"/></svg>
+                               <span class="ml-2 my-auto text-gray-500">The Catalyzer</span> 
+                               <svg class="w-4 h-4 my-auto ml-2" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M4.26686 1.45498C4.91012 1.40362 5.52077 1.15061 6.01186 0.731982C6.56652 0.259573 7.27129 0.00012207 7.99986 0.00012207C8.72843 0.00012207 9.4332 0.259573 9.98786 0.731982C10.4789 1.15061 11.0896 1.40362 11.7329 1.45498C12.4593 1.51304 13.1413 1.82794 13.6566 2.34325C14.1719 2.85855 14.4868 3.54055 14.5449 4.26698C14.5959 4.90998 14.8489 5.52098 15.2679 6.01198C15.7403 6.56665 15.9997 7.27141 15.9997 7.99998C15.9997 8.72856 15.7403 9.43332 15.2679 9.98798C14.8492 10.4791 14.5962 11.0897 14.5449 11.733C14.4868 12.4594 14.1719 13.1414 13.6566 13.6567C13.1413 14.172 12.4593 14.4869 11.7329 14.545C11.0896 14.5963 10.4789 14.8494 9.98786 15.268C9.4332 15.7404 8.72843 15.9998 7.99986 15.9998C7.27129 15.9998 6.56652 15.7404 6.01186 15.268C5.52077 14.8494 4.91012 14.5963 4.26686 14.545C3.54043 14.4869 2.85843 14.172 2.34313 13.6567C1.82782 13.1414 1.51292 12.4594 1.45486 11.733C1.4035 11.0897 1.15049 10.4791 0.73186 9.98798C0.259451 9.43332 0 8.72856 0 7.99998C0 7.27141 0.259451 6.56665 0.73186 6.01198C1.15049 5.5209 1.4035 4.91024 1.45486 4.26698C1.51292 3.54055 1.82782 2.85855 2.34313 2.34325C2.85843 1.82794 3.54043 1.51304 4.26686 1.45498ZM11.7069 6.70698C11.889 6.51838 11.9898 6.26578 11.9875 6.00358C11.9853 5.74138 11.8801 5.49057 11.6947 5.30516C11.5093 5.11976 11.2585 5.01459 10.9963 5.01231C10.7341 5.01003 10.4815 5.11082 10.2929 5.29298L6.99986 8.58598L5.70686 7.29298C5.51826 7.11083 5.26566 7.01003 5.00346 7.01231C4.74126 7.01459 4.49045 7.11976 4.30504 7.30516C4.11963 7.49057 4.01446 7.74138 4.01219 8.00358C4.00991 8.26578 4.1107 8.51838 4.29286 8.70698L6.29286 10.707C6.48039 10.8945 6.7347 10.9998 6.99986 10.9998C7.26502 10.9998 7.51933 10.8945 7.70686 10.707L11.7069 6.70698Z" fill="#FFC801"/>
+                                </svg></div>
+                               <span class=" rounded-xl p-1 px-2 bg-orange-200 my-auto uppercase">&Agrave; louer</span>
+                               </div>
+                        </div>
+                      </div>
+
+                       <!--Card 2-->
+                      <div class="e-card  rounded-3xl shadow-sm bg-gray-50 border ">
+                        <a class="block e-card-imgs   relative     h-72 w-full rounded-3xl rounded-ee-none overflow-hidden">
+                             <div id="default-carousel" class="relative w-full h-full z-0  p-0 default-font" data-carousel="slide">
+                                    <!-- Carousel wrapper -->
+                                    <div class="relative  overflow-hidden rounded-lg h-full bg-transparent">
+                                        <!-- Item 1 -->
+                                        <div class="  duration-700 ease-in-out bg-transparent" data-carousel-item>
+                                        
+                                            <div class="block w-full h-full bg-blue-300   -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 absolute p-0  dark:bg-gray-800 dark:border-gray-700 ">         
+                                                     <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="media/img/img1.jpg">
+                        
+                                            </div>
+
+                                        </div>
+                                        <!-- Item 2 -->
+                                        <div class=" duration-700 ease-in-out" data-carousel-item>
+                                        
+                                            <div class="block w-full h-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 absolute p-0 dark:bg-gray-800 dark:border-gray-700">          
+                                            
+                                              <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://dummyimage.com/420x260">
+                        
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <!-- Slider indicators -->
+                                    <div class="absolute z-30  flex -translate-x-1/2 bottom-5 left-1/2 space-x-3 rtl:space-x-reverse -translate-y-14">
+                                        <button type="button" class="w-3 h-1 rounded-full" aria-current="true" aria-label="Slide 1" data-carousel-slide-to="0"></button>
+                                        <button type="button" class="w-3 h-1 rounded-full " aria-current="false" aria-label="Slide 2" data-carousel-slide-to="1"></button>
+                                        </div>
+                                    <!-- Slider controls -->
+                                    <button type="button" class=" absolute top-0  -start-2 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
+                                        <span class="inline-flex items-center justify-center w-5 h-5 rounded-full bg-white dark:bg-gray-800/30 group-hover:bg-orange-300 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                                            <svg class="w-3 h-3 text-gray-400 hover:text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4"/>
+                                            </svg>
+                                            <span class="sr-only">Previous</span>
+                                        </span>
+                                    </button>
+                                    <button type="button" class=" absolute top-0 -end-2 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
+                                        <span class="inline-flex items-center justify-center w-5 h-5 rounded-full bg-white dark:bg-gray-800/30 group-hover:bg-orange-300 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                                            <svg class="w-3 h-3 text-gray-400 hover:text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
+                                            </svg>
+                                            <span class="sr-only">Next</span>
+                                        </span>
+                                    </button>
+                                </div>
+                          <img alt="ecommerce" class="object-cover object-center w-full h-56 block" src="https://dummyimage.com/420x260">
+                        </a>
+                        <div id="" class="e-cardInfos relative -mt-16  p-3 pt-0  bg-gray-50 rounded-e-3xl rounded-es-3xl ">
+                            <div class="h-8 p-3n -ml-3  flex rounded-es-3xl bg-transparent "></div>
+                          <h2 class="text-gray-950 font-bold mb-1 text-lg">2 Pièces - Sanitaire</h2>
+                          <p class=" flex text-sm font-medium">
+                            <svg class="w-4 h-4 my-auto mr-2" viewBox="0 0 20 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M9.99355 7.62785e-05C9.74897 0.000224534 9.51332 0.0920689 9.33315 0.257476L0.295151 8.22608C0.292322 8.22858 0.289521 8.23111 0.286751 8.23368C-0.00404868 8.50268 -0.0716487 8.94168 0.0747513 9.26208C0.221151 9.58268 0.564351 9.81188 0.953551 9.81208H3.28395V17.5137C3.28395 18.0395 3.74155 18.4317 4.24335 18.4319H15.7562C16.258 18.4319 16.7156 18.0395 16.7156 17.5139V9.81208H19.0462C19.4354 9.81208 19.7786 9.58288 19.925 9.26228C20.0714 8.94188 20.0038 8.50268 19.713 8.23368C19.7102 8.23111 19.7074 8.22858 19.7046 8.22608L10.6668 0.257476C10.4833 0.0890348 10.2426 -0.00303332 9.99355 7.62785e-05ZM9.99995 4.85748C12.12 4.85748 13.8566 6.58948 13.8566 8.70328C13.8566 9.21228 13.7552 9.69908 13.5726 10.1449C13.5333 10.2625 13.484 10.3765 13.4254 10.4857L10.4674 15.5197C10.155 15.9431 9.90535 16.0363 9.52955 15.5457L6.84755 10.9095C6.38954 10.265 6.14343 9.49394 6.14335 8.70328C6.14335 6.58928 7.87995 4.85728 9.99995 4.85728M9.99995 6.65928C8.85835 6.65928 7.95035 7.56468 7.95035 8.70308C7.95035 9.84128 8.85835 10.7467 9.99995 10.7467C11.1416 10.7467 12.0496 9.84128 12.0496 8.70308C12.0496 7.56468 11.1416 6.65928 9.99995 6.65928Z" fill="#FFD233"/>
+                            </svg>
+                            Bidossessi, Abomey-Calavi</p>
+                          <p class="mt-1 my-3"><span class="text-lg  text-gray-950 font-bold ">51.000</span> <span>Fcfa / mois</span></p>
+                          <div class="text-gray-900  text-xs align-middle  justify-between font-medium  flex w-full my-auto"> 
+                            <div class="flex">
+                                <svg class="w-8 h-8 stroke-slate-400 border border-gray-300 rounded-full p-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc. --><path d="M304 128a80 80 0 1 0 -160 0 80 80 0 1 0 160 0zM96 128a128 128 0 1 1 256 0A128 128 0 1 1 96 128zM49.3 464l349.5 0c-8.9-63.3-63.3-112-129-112l-91.4 0c-65.7 0-120.1 48.7-129 112zM0 482.3C0 383.8 79.8 304 178.3 304l91.4 0C368.2 304 448 383.8 448 482.3c0 16.4-13.3 29.7-29.7 29.7L29.7 512C13.3 512 0 498.7 0 482.3z"/></svg>
+                               <span class="ml-2 my-auto text-gray-500">The Catalyzer</span> 
+                               <svg class="w-4 h-4 my-auto ml-2" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M4.26686 1.45498C4.91012 1.40362 5.52077 1.15061 6.01186 0.731982C6.56652 0.259573 7.27129 0.00012207 7.99986 0.00012207C8.72843 0.00012207 9.4332 0.259573 9.98786 0.731982C10.4789 1.15061 11.0896 1.40362 11.7329 1.45498C12.4593 1.51304 13.1413 1.82794 13.6566 2.34325C14.1719 2.85855 14.4868 3.54055 14.5449 4.26698C14.5959 4.90998 14.8489 5.52098 15.2679 6.01198C15.7403 6.56665 15.9997 7.27141 15.9997 7.99998C15.9997 8.72856 15.7403 9.43332 15.2679 9.98798C14.8492 10.4791 14.5962 11.0897 14.5449 11.733C14.4868 12.4594 14.1719 13.1414 13.6566 13.6567C13.1413 14.172 12.4593 14.4869 11.7329 14.545C11.0896 14.5963 10.4789 14.8494 9.98786 15.268C9.4332 15.7404 8.72843 15.9998 7.99986 15.9998C7.27129 15.9998 6.56652 15.7404 6.01186 15.268C5.52077 14.8494 4.91012 14.5963 4.26686 14.545C3.54043 14.4869 2.85843 14.172 2.34313 13.6567C1.82782 13.1414 1.51292 12.4594 1.45486 11.733C1.4035 11.0897 1.15049 10.4791 0.73186 9.98798C0.259451 9.43332 0 8.72856 0 7.99998C0 7.27141 0.259451 6.56665 0.73186 6.01198C1.15049 5.5209 1.4035 4.91024 1.45486 4.26698C1.51292 3.54055 1.82782 2.85855 2.34313 2.34325C2.85843 1.82794 3.54043 1.51304 4.26686 1.45498ZM11.7069 6.70698C11.889 6.51838 11.9898 6.26578 11.9875 6.00358C11.9853 5.74138 11.8801 5.49057 11.6947 5.30516C11.5093 5.11976 11.2585 5.01459 10.9963 5.01231C10.7341 5.01003 10.4815 5.11082 10.2929 5.29298L6.99986 8.58598L5.70686 7.29298C5.51826 7.11083 5.26566 7.01003 5.00346 7.01231C4.74126 7.01459 4.49045 7.11976 4.30504 7.30516C4.11963 7.49057 4.01446 7.74138 4.01219 8.00358C4.00991 8.26578 4.1107 8.51838 4.29286 8.70698L6.29286 10.707C6.48039 10.8945 6.7347 10.9998 6.99986 10.9998C7.26502 10.9998 7.51933 10.8945 7.70686 10.707L11.7069 6.70698Z" fill="#FFC801"/>
+                                </svg></div>
+                               <span class=" rounded-xl p-1 px-2 bg-orange-200 my-auto uppercase">&Agrave; louer</span>
+                               </div>
+                        </div>
+                      </div>
+
+
+                       <!--Card 3-->
+                      <div class="e-card rounded-3xl  shadow-sm bg-gray-50 border ">
+                        <a class="block e-card-imgs   relative     h-72 w-full rounded-3xl rounded-ee-none overflow-hidden">
+                             <div id="default-carousel" class="relative w-full h-full z-0  p-0 default-font" data-carousel="slide">
+                                    <!-- Carousel wrapper -->
+                                    <div class="relative  overflow-hidden rounded-lg h-full bg-transparent">
+                                        <!-- Item 1 -->
+                                        <div class="  duration-700 ease-in-out bg-transparent" data-carousel-item>
+                                        
+                                            <div class="block w-full h-full bg-blue-300   -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 absolute p-0  dark:bg-gray-800 dark:border-gray-700 ">         
+                                                     <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="media/img/img1.jpg">
+                        
+                                            </div>
+
+                                        </div>
+                                        <!-- Item 2 -->
+                                        <div class=" duration-700 ease-in-out" data-carousel-item>
+                                        
+                                            <div class="block w-full h-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 absolute p-0 dark:bg-gray-800 dark:border-gray-700">          
+                                            
+                                              <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://dummyimage.com/420x260">
+                        
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <!-- Slider indicators -->
+                                    <div class="absolute z-30  flex -translate-x-1/2 bottom-5 left-1/2 space-x-3 rtl:space-x-reverse -translate-y-14">
+                                        <button type="button" class="w-3 h-1 rounded-full" aria-current="true" aria-label="Slide 1" data-carousel-slide-to="0"></button>
+                                        <button type="button" class="w-3 h-1 rounded-full " aria-current="false" aria-label="Slide 2" data-carousel-slide-to="1"></button>
+                                        </div>
+                                    <!-- Slider controls -->
+                                    <button type="button" class=" absolute top-0  -start-2 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
+                                        <span class="inline-flex items-center justify-center w-5 h-5 rounded-full bg-white dark:bg-gray-800/30 group-hover:bg-orange-300 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                                            <svg class="w-3 h-3 text-gray-400 hover:text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4"/>
+                                            </svg>
+                                            <span class="sr-only">Previous</span>
+                                        </span>
+                                    </button>
+                                    <button type="button" class=" absolute top-0 -end-2 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
+                                        <span class="inline-flex items-center justify-center w-5 h-5 rounded-full bg-white dark:bg-gray-800/30 group-hover:bg-orange-300 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                                            <svg class="w-3 h-3 text-gray-400 hover:text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
+                                            </svg>
+                                            <span class="sr-only">Next</span>
+                                        </span>
+                                    </button>
+                                </div>
+                          <img alt="ecommerce" class="object-cover object-center w-full h-56 block" src="https://dummyimage.com/420x260">
+                        </a>
+                        <div id="" class="e-cardInfos relative -mt-16  p-3 pt-0  bg-gray-50 rounded-e-3xl rounded-es-3xl ">
+                            <div class="h-8 p-3n -ml-3  flex rounded-es-3xl bg-transparent "></div>
+                          <h2 class="text-gray-950 font-bold mb-1 text-lg">2 Pièces - Sanitaire</h2>
+                          <p class=" flex text-sm font-medium">
+                            <svg class="w-4 h-4 my-auto mr-2" viewBox="0 0 20 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M9.99355 7.62785e-05C9.74897 0.000224534 9.51332 0.0920689 9.33315 0.257476L0.295151 8.22608C0.292322 8.22858 0.289521 8.23111 0.286751 8.23368C-0.00404868 8.50268 -0.0716487 8.94168 0.0747513 9.26208C0.221151 9.58268 0.564351 9.81188 0.953551 9.81208H3.28395V17.5137C3.28395 18.0395 3.74155 18.4317 4.24335 18.4319H15.7562C16.258 18.4319 16.7156 18.0395 16.7156 17.5139V9.81208H19.0462C19.4354 9.81208 19.7786 9.58288 19.925 9.26228C20.0714 8.94188 20.0038 8.50268 19.713 8.23368C19.7102 8.23111 19.7074 8.22858 19.7046 8.22608L10.6668 0.257476C10.4833 0.0890348 10.2426 -0.00303332 9.99355 7.62785e-05ZM9.99995 4.85748C12.12 4.85748 13.8566 6.58948 13.8566 8.70328C13.8566 9.21228 13.7552 9.69908 13.5726 10.1449C13.5333 10.2625 13.484 10.3765 13.4254 10.4857L10.4674 15.5197C10.155 15.9431 9.90535 16.0363 9.52955 15.5457L6.84755 10.9095C6.38954 10.265 6.14343 9.49394 6.14335 8.70328C6.14335 6.58928 7.87995 4.85728 9.99995 4.85728M9.99995 6.65928C8.85835 6.65928 7.95035 7.56468 7.95035 8.70308C7.95035 9.84128 8.85835 10.7467 9.99995 10.7467C11.1416 10.7467 12.0496 9.84128 12.0496 8.70308C12.0496 7.56468 11.1416 6.65928 9.99995 6.65928Z" fill="#FFD233"/>
+                            </svg>
+                            Bidossessi, Abomey-Calavi</p>
+                          <p class="mt-1 my-3"><span class="text-lg  text-gray-950 font-bold ">51.000</span> <span>Fcfa / mois</span></p>
+                          <div class="text-gray-900  text-xs align-middle  justify-between font-medium  flex w-full my-auto"> 
+                            <div class="flex">
+                                <svg class="w-8 h-8 stroke-slate-400 border border-gray-300 rounded-full p-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc. --><path d="M304 128a80 80 0 1 0 -160 0 80 80 0 1 0 160 0zM96 128a128 128 0 1 1 256 0A128 128 0 1 1 96 128zM49.3 464l349.5 0c-8.9-63.3-63.3-112-129-112l-91.4 0c-65.7 0-120.1 48.7-129 112zM0 482.3C0 383.8 79.8 304 178.3 304l91.4 0C368.2 304 448 383.8 448 482.3c0 16.4-13.3 29.7-29.7 29.7L29.7 512C13.3 512 0 498.7 0 482.3z"/></svg>
+                               <span class="ml-2 my-auto text-gray-500">The Catalyzer</span> 
+                               <svg class="w-4 h-4 my-auto ml-2" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M4.26686 1.45498C4.91012 1.40362 5.52077 1.15061 6.01186 0.731982C6.56652 0.259573 7.27129 0.00012207 7.99986 0.00012207C8.72843 0.00012207 9.4332 0.259573 9.98786 0.731982C10.4789 1.15061 11.0896 1.40362 11.7329 1.45498C12.4593 1.51304 13.1413 1.82794 13.6566 2.34325C14.1719 2.85855 14.4868 3.54055 14.5449 4.26698C14.5959 4.90998 14.8489 5.52098 15.2679 6.01198C15.7403 6.56665 15.9997 7.27141 15.9997 7.99998C15.9997 8.72856 15.7403 9.43332 15.2679 9.98798C14.8492 10.4791 14.5962 11.0897 14.5449 11.733C14.4868 12.4594 14.1719 13.1414 13.6566 13.6567C13.1413 14.172 12.4593 14.4869 11.7329 14.545C11.0896 14.5963 10.4789 14.8494 9.98786 15.268C9.4332 15.7404 8.72843 15.9998 7.99986 15.9998C7.27129 15.9998 6.56652 15.7404 6.01186 15.268C5.52077 14.8494 4.91012 14.5963 4.26686 14.545C3.54043 14.4869 2.85843 14.172 2.34313 13.6567C1.82782 13.1414 1.51292 12.4594 1.45486 11.733C1.4035 11.0897 1.15049 10.4791 0.73186 9.98798C0.259451 9.43332 0 8.72856 0 7.99998C0 7.27141 0.259451 6.56665 0.73186 6.01198C1.15049 5.5209 1.4035 4.91024 1.45486 4.26698C1.51292 3.54055 1.82782 2.85855 2.34313 2.34325C2.85843 1.82794 3.54043 1.51304 4.26686 1.45498ZM11.7069 6.70698C11.889 6.51838 11.9898 6.26578 11.9875 6.00358C11.9853 5.74138 11.8801 5.49057 11.6947 5.30516C11.5093 5.11976 11.2585 5.01459 10.9963 5.01231C10.7341 5.01003 10.4815 5.11082 10.2929 5.29298L6.99986 8.58598L5.70686 7.29298C5.51826 7.11083 5.26566 7.01003 5.00346 7.01231C4.74126 7.01459 4.49045 7.11976 4.30504 7.30516C4.11963 7.49057 4.01446 7.74138 4.01219 8.00358C4.00991 8.26578 4.1107 8.51838 4.29286 8.70698L6.29286 10.707C6.48039 10.8945 6.7347 10.9998 6.99986 10.9998C7.26502 10.9998 7.51933 10.8945 7.70686 10.707L11.7069 6.70698Z" fill="#FFC801"/>
+                                </svg></div>
+                               <span class=" rounded-xl p-1 px-2 bg-orange-200 my-auto uppercase">&Agrave; louer</span>
+                               </div>
+                        </div>
+                      </div>
+                       <!--Card 4-->
+                      <div class="e-card  rounded-3xl  shadow-sm bg-gray-50 border ">
+                        <a class="block e-card-imgs   relative     h-72 w-full rounded-3xl rounded-ee-none overflow-hidden">
+                             <div id="default-carousel" class="relative w-full h-full z-0  p-0 default-font" data-carousel="slide">
+                                    <!-- Carousel wrapper -->
+                                    <div class="relative  overflow-hidden rounded-lg h-full bg-transparent">
+                                        <!-- Item 1 -->
+                                        <div class="  duration-700 ease-in-out bg-transparent" data-carousel-item>
+                                        
+                                            <div class="block w-full h-full bg-blue-300   -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 absolute p-0  dark:bg-gray-800 dark:border-gray-700 ">         
+                                                     <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="media/img/img1.jpg">
+                        
+                                            </div>
+
+                                        </div>
+                                        <!-- Item 2 -->
+                                        <div class=" duration-700 ease-in-out" data-carousel-item>
+                                        
+                                            <div class="block w-full h-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 absolute p-0 dark:bg-gray-800 dark:border-gray-700">          
+                                            
+                                              <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://dummyimage.com/420x260">
+                        
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <!-- Slider indicators -->
+                                    <div class="absolute z-30  flex -translate-x-1/2 bottom-5 left-1/2 space-x-3 rtl:space-x-reverse -translate-y-14">
+                                        <button type="button" class="w-3 h-1 rounded-full" aria-current="true" aria-label="Slide 1" data-carousel-slide-to="0"></button>
+                                        <button type="button" class="w-3 h-1 rounded-full " aria-current="false" aria-label="Slide 2" data-carousel-slide-to="1"></button>
+                                        </div>
+                                    <!-- Slider controls -->
+                                    <button type="button" class=" absolute top-0  -start-2 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
+                                        <span class="inline-flex items-center justify-center w-5 h-5 rounded-full bg-white dark:bg-gray-800/30 group-hover:bg-orange-300 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                                            <svg class="w-3 h-3 text-gray-400 hover:text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4"/>
+                                            </svg>
+                                            <span class="sr-only">Previous</span>
+                                        </span>
+                                    </button>
+                                    <button type="button" class=" absolute top-0 -end-2 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
+                                        <span class="inline-flex items-center justify-center w-5 h-5 rounded-full bg-white dark:bg-gray-800/30 group-hover:bg-orange-300 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                                            <svg class="w-3 h-3 text-gray-400 hover:text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
+                                            </svg>
+                                            <span class="sr-only">Next</span>
+                                        </span>
+                                    </button>
+                                </div>
+                          <img alt="ecommerce" class="object-cover object-center w-full h-56 block" src="https://dummyimage.com/420x260">
+                        </a>
+                        <div id="" class="e-cardInfos relative -mt-16  p-3 pt-0  bg-gray-50 rounded-e-3xl rounded-es-3xl ">
+                            <div class="h-8 p-3n -ml-3  flex rounded-es-3xl bg-transparent "></div>
+                          <h2 class="text-gray-950 font-bold mb-1 text-lg">2 Pièces - Sanitaire</h2>
+                          <p class=" flex text-sm font-medium">
+                            <svg class="w-4 h-4 my-auto mr-2" viewBox="0 0 20 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M9.99355 7.62785e-05C9.74897 0.000224534 9.51332 0.0920689 9.33315 0.257476L0.295151 8.22608C0.292322 8.22858 0.289521 8.23111 0.286751 8.23368C-0.00404868 8.50268 -0.0716487 8.94168 0.0747513 9.26208C0.221151 9.58268 0.564351 9.81188 0.953551 9.81208H3.28395V17.5137C3.28395 18.0395 3.74155 18.4317 4.24335 18.4319H15.7562C16.258 18.4319 16.7156 18.0395 16.7156 17.5139V9.81208H19.0462C19.4354 9.81208 19.7786 9.58288 19.925 9.26228C20.0714 8.94188 20.0038 8.50268 19.713 8.23368C19.7102 8.23111 19.7074 8.22858 19.7046 8.22608L10.6668 0.257476C10.4833 0.0890348 10.2426 -0.00303332 9.99355 7.62785e-05ZM9.99995 4.85748C12.12 4.85748 13.8566 6.58948 13.8566 8.70328C13.8566 9.21228 13.7552 9.69908 13.5726 10.1449C13.5333 10.2625 13.484 10.3765 13.4254 10.4857L10.4674 15.5197C10.155 15.9431 9.90535 16.0363 9.52955 15.5457L6.84755 10.9095C6.38954 10.265 6.14343 9.49394 6.14335 8.70328C6.14335 6.58928 7.87995 4.85728 9.99995 4.85728M9.99995 6.65928C8.85835 6.65928 7.95035 7.56468 7.95035 8.70308C7.95035 9.84128 8.85835 10.7467 9.99995 10.7467C11.1416 10.7467 12.0496 9.84128 12.0496 8.70308C12.0496 7.56468 11.1416 6.65928 9.99995 6.65928Z" fill="#FFD233"/>
+                            </svg>
+                            Bidossessi, Abomey-Calavi</p>
+                          <p class="mt-1 my-3"><span class="text-lg  text-gray-950 font-bold ">51.000</span> <span>Fcfa / mois</span></p>
+                          <div class="text-gray-900  text-xs align-middle  justify-between font-medium  flex w-full my-auto"> 
+                            <div class="flex">
+                                <svg class="w-8 h-8 stroke-slate-400 border border-gray-300 rounded-full p-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc. --><path d="M304 128a80 80 0 1 0 -160 0 80 80 0 1 0 160 0zM96 128a128 128 0 1 1 256 0A128 128 0 1 1 96 128zM49.3 464l349.5 0c-8.9-63.3-63.3-112-129-112l-91.4 0c-65.7 0-120.1 48.7-129 112zM0 482.3C0 383.8 79.8 304 178.3 304l91.4 0C368.2 304 448 383.8 448 482.3c0 16.4-13.3 29.7-29.7 29.7L29.7 512C13.3 512 0 498.7 0 482.3z"/></svg>
+                               <span class="ml-2 my-auto text-gray-500">The Catalyzer</span> 
+                               <svg class="w-4 h-4 my-auto ml-2" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M4.26686 1.45498C4.91012 1.40362 5.52077 1.15061 6.01186 0.731982C6.56652 0.259573 7.27129 0.00012207 7.99986 0.00012207C8.72843 0.00012207 9.4332 0.259573 9.98786 0.731982C10.4789 1.15061 11.0896 1.40362 11.7329 1.45498C12.4593 1.51304 13.1413 1.82794 13.6566 2.34325C14.1719 2.85855 14.4868 3.54055 14.5449 4.26698C14.5959 4.90998 14.8489 5.52098 15.2679 6.01198C15.7403 6.56665 15.9997 7.27141 15.9997 7.99998C15.9997 8.72856 15.7403 9.43332 15.2679 9.98798C14.8492 10.4791 14.5962 11.0897 14.5449 11.733C14.4868 12.4594 14.1719 13.1414 13.6566 13.6567C13.1413 14.172 12.4593 14.4869 11.7329 14.545C11.0896 14.5963 10.4789 14.8494 9.98786 15.268C9.4332 15.7404 8.72843 15.9998 7.99986 15.9998C7.27129 15.9998 6.56652 15.7404 6.01186 15.268C5.52077 14.8494 4.91012 14.5963 4.26686 14.545C3.54043 14.4869 2.85843 14.172 2.34313 13.6567C1.82782 13.1414 1.51292 12.4594 1.45486 11.733C1.4035 11.0897 1.15049 10.4791 0.73186 9.98798C0.259451 9.43332 0 8.72856 0 7.99998C0 7.27141 0.259451 6.56665 0.73186 6.01198C1.15049 5.5209 1.4035 4.91024 1.45486 4.26698C1.51292 3.54055 1.82782 2.85855 2.34313 2.34325C2.85843 1.82794 3.54043 1.51304 4.26686 1.45498ZM11.7069 6.70698C11.889 6.51838 11.9898 6.26578 11.9875 6.00358C11.9853 5.74138 11.8801 5.49057 11.6947 5.30516C11.5093 5.11976 11.2585 5.01459 10.9963 5.01231C10.7341 5.01003 10.4815 5.11082 10.2929 5.29298L6.99986 8.58598L5.70686 7.29298C5.51826 7.11083 5.26566 7.01003 5.00346 7.01231C4.74126 7.01459 4.49045 7.11976 4.30504 7.30516C4.11963 7.49057 4.01446 7.74138 4.01219 8.00358C4.00991 8.26578 4.1107 8.51838 4.29286 8.70698L6.29286 10.707C6.48039 10.8945 6.7347 10.9998 6.99986 10.9998C7.26502 10.9998 7.51933 10.8945 7.70686 10.707L11.7069 6.70698Z" fill="#FFC801"/>
+                                </svg></div>
+                               <span class=" rounded-xl p-1 px-2 bg-orange-200 my-auto uppercase">&Agrave; louer</span>
+                               </div>
+                        </div>
+                      </div>
+
+
+                    </div>
+                    <div class="flex mx-auto p-4 mt-5 mb-10">
+                        <button class=" p-1 px-3 text-black bg-yellow-200 rounded-3xl">Suivant</button>
+                    </div>
+                  </div>
+                </section>
+                 
+            </div>
+        </div>
+
+    <footer class="w-full flex default-font bottom-0 flex-col ">
+        
+          <div class="w-full  bg-footer  pt-12 pb-6 px-24 flex flex-col justify-around">
+            <div class="w-full flex flex-wrap max-lg:justify-center lg:justify-between"> 
+                <div class="image lg:w-3/12  relative left-0 justify-betewen justify-between">
+                   <img src="media/Logo Osudada 2.png" class="image lg:w-2/5 p-0" alt="">
+                    <p class=" py-4">Information sur l'entreprise</p>
+                </div>
+                <div class="lg:w-6/12 flex flex-wrap max-lg:justify-around lg:justify-between p-0 align-top   ">
+                    
+                            <div class="p-2 "> <h5 class="mb-4">Suplémentaire</h5>
+                                 <p class=" "> <a href="">Nos valeur</a></p>
+                                  <p class=" "><a href="">FAQ</a></p>
+                                   <p class=""><a href="">Blog</a></p>
+                            </div>
+                            <div class="p-2  "><h5 class="mb-4">Assistance</h5>
+                                 <p class=" "> <a href="">Centre d'aide</a></p>
+                                  <p class=" "> <a href="">Devenir partenaire</a></p>
+                            </div>
+                            <div class="p-2 "><h5 class="mb-4">Statistiques</h5>
+                                 <p class=" "> <a href="">+200 biens publiés</a></p>
+                                  <p class=" "> <a href="">96 Agences immobilières</a></p>
+                                   <p class=" "> <a href="">99,9 % d'avis positifs</a></p>
+                            </div>
+                </div>
+                <div class=" lg:w-2/12 flex lg:float-right p-2  justify-between ">
+                    <div class="flex mx-auto justify-between lg:w-1/2">
+                        <div class="p-2 ">
+                           <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc. --><path d="M80 299.3V512H196V299.3h86.5l18-97.8H196V166.9c0-51.7 20.3-71.5 72.7-71.5c16.3 0 29.4 .4 37 1.2V7.9C291.4 4 256.4 0 236.2 0C129.3 0 80 50.5 80 159.4v42.1H14v97.8H80z"/></svg>
+                        </div>
+                        <div class="p-2 ">
+                          <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc. --><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg>
+                          </div>
+                        <div class="p-2 ">
+                         <svg class="w-6 h-6"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc. --><path d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"/></svg>
+                          </div>
+                        <div class="p-2 ">
+                         <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc. --><path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"/></svg>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+          <div class="w-full flex flex-wrap justify-between text-sm mt-8 ">
+            <div class="flex w-6/12">
+                <h6>Copywright &copy; 2024 Osudada,</h6>
+            </div>
+            <div class="flex  w-6/12  rounded-full ">
+                <div class="ml-auto flex flex-wrap">
+                     -  FCFA  -&nbsp; <a href=""> Conditions d’utilisation</a> &nbsp;   - &nbsp; <a href="">Plan du site</a> &nbsp; - &nbsp; <a href="">Fonctionnement du site </a> 
+                </div>
+               
+            </div>
+          </div>
+
+        </div>
+    </footer>
+    <script src="js/flowbite.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
