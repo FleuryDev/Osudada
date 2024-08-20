@@ -82,5 +82,7 @@ form.contact label{
 footer h5{
     @apply text-lg font-semibold;
 }
-
+footer p{
+    @apply text-base;
+}
 
