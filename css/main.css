@@ -8,13 +8,14 @@
 --secondary-orange : #FFC801;
 }
 
+
 header select{
     @apply text-sm ;
 
 }
 
 header label{
-    @apply font-medium;
+    @apply font-medium text-base;
 
 }
 .filter1  div{
@@ -49,7 +50,7 @@ header select option{
 
 
 .e-card{
-    @apply  container relative max-lg:w-1/2 max-md:w-full mb-5;
+    @apply  container relative max-lg:w-1/2 max-md:w-full mb-5 ;
 }
 @media  (min-width: 1024px) {
     .e-card{
