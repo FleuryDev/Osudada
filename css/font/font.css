@@ -10,6 +10,14 @@
     font-style:normal;
     font-display:swap;
 }
+.font-regular{
+    font-family: "Bahnschrift";
+    src:url("Bahnschrift\ Regular.ttf")format("ttf") format("ttf");
+     font-weight:normal;
+    font-style:normal;
+    font-display:swap;
+}
+        
 
 header {
     z-index: 565446;
@@ -20,6 +28,7 @@ header {
 
 .default-font{
     font-family: "Bahnschrift" !important;
+
 }
 
 .bg-footer{

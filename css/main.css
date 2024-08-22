@@ -8,24 +8,28 @@
 --secondary-orange : #FFC801;
 }
 
-
+*{
+    @apply outline-0 outline-transparent ;
+  
+}
 header select{
-    @apply text-sm ;
+    @apply text-[13px] flex  ;
 
 }
 
+
 header label{
-    @apply font-medium text-base;
+    @apply font-medium text-sm;
 
 }
 .filter1  div{
-    @apply mx-auto text-left block  w-1/6;
+    @apply mx-auto text-left flex flex-col ;
 }
 #filter1 select, #filter1 label{
-    @apply block ;
+    @apply flex ;
 }
 #filter1 select{
-    @apply w-full p-0 border-none ;
+    @apply  p-0 border-none ;
 }   
 header select option{
     @apply font-thin;
@@ -33,18 +37,22 @@ header select option{
 
 
 #hFilter{
-    @apply w-full max-sm:hidden ;
+    @apply w-full max-sm:hidden bg-white mt-0 ;
+    z-index: 555;
 }
 
 #hFilter button{
-    @apply  border-none p-1  focus:border-none max-md:w-1/5;
+    @apply  border-none p-1 flex flex-col space-y-1 focus:border-none max-md:w-1/5 ;
+    line-height: 70px !important;   
+    
 }
 
 #hFilter svg{
     @apply  w-auto mx-auto h-4 fill-transparent;
 }
 #hFilter span{
-    @apply text-xs;
+    @apply text-xs text-center align-middle ;
+    line-height: 10px;
 }
 
 
@@ -86,3 +94,23 @@ footer p{
     @apply text-base;
 }
 
+.car-wrap{
+    	padding: 1rem;
+	display: grid;
+	grid-template-columns: 3;
+	
+	grid-row-gap: 1rem;
+	
+	height: 10rem;
+	
+}
+
+.car-wrap .slide{
+    width: 60%;
+    column-span: 2;
+	display: inline-block;
+	border-radius: 3px;
+	font-size: 0;
+
+
+}

@@ -1,0 +1,1 @@
+const vaj=2
